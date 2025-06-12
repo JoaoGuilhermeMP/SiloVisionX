@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SiloVisionX.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b3690017168d9cdf3c60ec8d93cbb0613ad775a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27c2d65d5a2a6f3c88af196760bd8f2d041bc6fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SiloVisionX.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SiloVisionX.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
