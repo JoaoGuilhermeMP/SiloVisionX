@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SiloVisionX.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e95973f3737f395d2ec8a91f232b6b9f45a9dffd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+742e15354d6c47be69e91083505e50a3e3a32b20")]
 [assembly: System.Reflection.AssemblyProductAttribute("SiloVisionX.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SiloVisionX.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

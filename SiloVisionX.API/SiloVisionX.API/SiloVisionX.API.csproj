@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -23,7 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\SiloVisionX.Application\SiloVisionX.Application.csproj" />
+    <ProjectReference Include="..\SiloVisionX.Domain\SiloVisionX.Domain.csproj" />
+    <ProjectReference Include="..\SiloVisionX.Infra\SiloVisionX.Infra.csproj" />
   </ItemGroup>
 
 </Project>

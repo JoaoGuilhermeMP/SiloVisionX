@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <MigrationsDirectory>SiloVisionX.Infra/Migrations</MigrationsDirectory>
+  </PropertyGroup>
+</Project>

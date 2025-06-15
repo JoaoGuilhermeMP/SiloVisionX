@@ -21,4 +21,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SiloVisionX.Domain\SiloVisionX.Domain.csproj" />
+    <ProjectReference Include="..\SiloVisionX.Infra\SiloVisionX.Infra.csproj" />
+  </ItemGroup>
+
 </Project>

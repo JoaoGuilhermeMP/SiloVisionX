@@ -1721,6 +1721,57 @@
             "rid": "win"
           }
         }
+      },
+      "SiloVisionX.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Autofac": "8.3.0",
+          "Autofac.Extensions.DependencyInjection": "10.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6",
+          "SiloVisionX.Domain": "1.0.0",
+          "SiloVisionX.Infra": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SiloVisionX.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SiloVisionX.Application.dll": {}
+        }
+      },
+      "SiloVisionX.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Autofac": "8.3.0",
+          "Autofac.Extensions.DependencyInjection": "10.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
+        },
+        "compile": {
+          "bin/placeholder/SiloVisionX.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SiloVisionX.Domain.dll": {}
+        }
+      },
+      "SiloVisionX.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Autofac": "8.3.0",
+          "Autofac.Extensions.DependencyInjection": "10.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6",
+          "SiloVisionX.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SiloVisionX.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SiloVisionX.Infra.dll": {}
+        }
       }
     }
   },
@@ -5226,6 +5277,21 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SiloVisionX.Application/1.0.0": {
+      "type": "project",
+      "path": "../SiloVisionX.Application/SiloVisionX.Application.csproj",
+      "msbuildProject": "../SiloVisionX.Application/SiloVisionX.Application.csproj"
+    },
+    "SiloVisionX.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SiloVisionX.Domain/SiloVisionX.Domain.csproj",
+      "msbuildProject": "../SiloVisionX.Domain/SiloVisionX.Domain.csproj"
+    },
+    "SiloVisionX.Infra/1.0.0": {
+      "type": "project",
+      "path": "../SiloVisionX.Infra/SiloVisionX.Infra.csproj",
+      "msbuildProject": "../SiloVisionX.Infra/SiloVisionX.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5236,27 +5302,30 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.6",
+      "SiloVisionX.Application >= 1.0.0",
+      "SiloVisionX.Domain >= 1.0.0",
+      "SiloVisionX.Infra >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\joaog\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\SiloVisionX.API.csproj",
+      "projectUniqueName": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\SiloVisionX.API.csproj",
       "projectName": "SiloVisionX.API",
-      "projectPath": "C:\\Users\\User\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\SiloVisionX.API.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\obj\\",
+      "projectPath": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\SiloVisionX.API.csproj",
+      "packagesPath": "C:\\Users\\joaog\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joaog\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5271,7 +5340,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\SiloVisionX.Application.csproj": {
+              "projectPath": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\SiloVisionX.Application.csproj"
+            },
+            "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\SiloVisionX.Domain.csproj": {
+              "projectPath": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\SiloVisionX.Domain.csproj"
+            },
+            "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\SiloVisionX.Infra.csproj": {
+              "projectPath": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\SiloVisionX.Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5282,8 +5361,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -5341,7 +5421,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

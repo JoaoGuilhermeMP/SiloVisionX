@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiloVisionX.API", "SiloVisionX.API\SiloVisionX.API.csproj", "{3C5EF0C9-777E-4933-824A-70E07BCF9805}"
 EndProject
@@ -10,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiloVisionX.Infra", "SiloVisionX.Infra\SiloVisionX.Infra.csproj", "{AADDE27E-B332-4054-9A3E-DAF26478BB58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiloVisionX.Application", "SiloVisionX.Application\SiloVisionX.Application.csproj", "{588FE987-B274-438B-A16D-59DBAC8F9527}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{36B91360-8F17-4ACF-88B9-A247975638FC}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
