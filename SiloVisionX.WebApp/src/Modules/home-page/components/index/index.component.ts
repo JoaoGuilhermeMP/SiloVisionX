@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-index',
@@ -8,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class IndexComponent {
 
+  temperatura: any = 14
+
+  umidade: any = 60
+
+  nivel: any = 222.57
+
+  risco: any = "fatal"
+
+  iconRisco = faExclamationTriangle
 }

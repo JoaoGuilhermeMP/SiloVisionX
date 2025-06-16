@@ -1,0 +1,37 @@
+<div class="container">
+    <form (ngSubmit)="search()">
+        <div class="InitialDate">
+            <Label>Data Inicial</Label>
+                <p-calendar 
+                [(ngModel)]="date1" 
+                [showIcon]="true" 
+                [showOnFocus]="false" 
+                inputId="buttondisplay"
+                [ngModelOptions]="{standalone: true}" 
+                placeholder="Insira a Data Inicial"/>
+        </div>
+        <div class="finalDate">
+            <Label>Data Final</Label>
+                <p-calendar 
+                [(ngModel)]="date2" 
+                [showIcon]="true" 
+                [showOnFocus]="false" 
+                inputId="buttondisplay" 
+                [ngModelOptions]="{standalone: true}" 
+                class="date"
+                placeholder="Insira a Data Final"/>
+        </div>
+        <div>
+            <button class="search">Pesquisar</button>
+        </div>
+    </form>
+
+    <div class="chart">
+        <chart *ngIf="hasData"></chart>
+    </div>
+
+    <div class="table">
+        <table *ngIf="hasData"></table>
+    </div>
+</div>
+

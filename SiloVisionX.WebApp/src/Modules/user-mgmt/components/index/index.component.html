@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="header">
+        <input
+            #inputSearch
+            type="text"
+            pInputText
+            placeholder="Buscar Usuário"
+            (input)="onSearch(inputSearch.value)"
+            style="width: 200px; padding: 8px;" />
+        <button class="add" (click)="openModal()">Adicionar <fa-icon [icon]="iconAdd"></fa-icon></button>
+    </div>
+    <div>
+        <p-table #table [value]="data" [paginator]="true" [rows]="10" [style]="{'width': '80vw', 'padding': '20px', 'height': '100vh'}" [globalFilterFields]="['name', 'email', 'cpf', 'telefone', 'permissions']">
+            <ng-template pTemplate="header">
+                <tr style="padding: 40px;">
+                    <th style="padding: 20px;">Nome</th>
+                    <th>Email</th>
+                    <th>CPF</th>
+                    <th>Telefone</th>
+                    <th>Permissões</th>
+                    <th>Ações</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-user>
+                <tr >
+                    <td style="padding: 20px;">{{ user?.name }}</td>
+                    <td>{{ user?.email }}</td>
+                    <td>{{ user?.cpf }}</td>
+                    <td>{{ user?.telefone }}</td>
+                    <td>{{ user?.permissions }}</td>
+                    <td class="actions">
+                        <button class="edit" (click)="editUser(user)"><fa-icon [icon]="iconEdit"></fa-icon></button>
+                        <button class="delete" (click)="deleteUser(user)"><fa-icon [icon]="iconDelete"></fa-icon></button>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>
+
+<create-edit-modal></create-edit-modal>
+
+<delete-modal></delete-modal>

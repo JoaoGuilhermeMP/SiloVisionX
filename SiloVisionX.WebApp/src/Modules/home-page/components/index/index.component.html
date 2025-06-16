@@ -1,1 +1,47 @@
-<p>index works!</p>
+<div class="container">
+    <h1 class="dash">Dashboard</h1>
+    <div class="main">
+        <div class="temperatura">
+            <h1>Temperatura</h1>
+            <h1>{{temperatura}}°C</h1>
+        </div>
+
+        <div class="umidade">
+            <h1>Umidade</h1>
+            <h1>{{umidade}}%</h1>
+        </div>
+
+        <div class="nivel">
+            <h1>Nivel</h1>
+            <h1>{{nivel}}</h1>
+        </div>
+
+        <div class="risco">
+            <h1>Risco</h1>
+            <h1>
+                <span [ngClass]="{
+                    'risco-baixo': risco !== 'warning' && risco !== 'fatal',
+                    'risco-medio': risco === 'warning',
+                    'risco-alto': risco === 'fatal'
+                }">
+                    <fa-icon [icon]="iconRisco"></fa-icon>
+                </span>
+            </h1>
+        </div>
+
+        <div class="last-alert">
+            <h1>Último Alerta</h1>
+            <br>
+            <br>
+            <h1>2025/06/15 14:00:00</h1>
+        </div>
+
+        <div class="last-red-alert">
+            <h1>Último alerta vermelho</h1>
+            <br>
+            <br>
+            <h1>2025/06/15 14:00:00</h1>
+        </div>
+
+    </div>
+</div>

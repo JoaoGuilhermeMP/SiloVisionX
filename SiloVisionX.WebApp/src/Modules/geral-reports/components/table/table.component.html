@@ -1,0 +1,18 @@
+<p-table [value]="data" [paginator]="true" [rows]="10" [style]="{'width': '80vw', 'padding': '20px', 'height': '100%'}">
+  <ng-template pTemplate="header">
+    <tr class="table-header">
+      <th style="padding: 20px;">Dia</th>
+      <th>Temperatura (Em °C)</th>
+      <th>Umidade (Em %)</th>
+      <th>Nível</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-row>
+    <tr>
+      <td style="padding: 20px;">{{ row.day }}</td>
+      <td>{{ row.temperature }}</td>
+      <td>{{ row.humidity }}</td>
+      <td>{{ row.level }}</td>
+    </tr>
+  </ng-template>
+</p-table>

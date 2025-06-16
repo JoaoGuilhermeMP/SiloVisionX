@@ -1,0 +1,7 @@
+:host ::ng-deep .p-table {
+  width: 90vw !important;
+}
+
+.table-header {
+    padding: 20px;
+}

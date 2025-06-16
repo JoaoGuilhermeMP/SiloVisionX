@@ -1,0 +1,44 @@
+<p-dialog [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }" [draggable]="false">
+    <div class="container">
+        <h1 *ngIf="!isEdit">Criar Usuário</h1>
+        <h1 *ngIf="isEdit">Editar Usuário</h1>
+
+        <form class="form" [formGroup]="form">
+            
+            <div class="name form-group">
+                <Label>Nome</Label>
+                <input type="text" pInputText formControlName="Name"/>
+            </div>
+        
+            <div class="email form-group">
+                <label>Email</label>
+                <input type="text" pInputText formControlName="Email" />
+            </div>
+
+            <div class="cpf form-group">
+                <label>CPF</label>
+                <input type="text" pInputText formControlName="CPF" />
+            </div>
+
+            <div class="telefone form-group">
+                <label>Telefone</label>
+                <input type="text" pInputText formControlName="Telefone" />
+            </div>
+
+            <div class="roles form-group">
+                <label>Permissões</label>
+                <p-dropdown 
+                    formControlName="Role" 
+                    [options]="roles"
+                    optionLabel="name"
+                    placeholder="Escolha a permissão" />
+            </div>
+
+            <div>
+                <button class="btn"><span *ngIf="!isEdit">Criar</span> <span *ngIf="isEdit">Editar</span></button>
+            </div>
+
+        </form>
+
+    </div>
+</p-dialog>

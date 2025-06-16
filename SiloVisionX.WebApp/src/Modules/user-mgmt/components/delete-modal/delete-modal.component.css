@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    gap: 20px;
+}
+
+.container p {
+    font-size: 20px;
+}
+
+.btn {
+    align-self: flex-end;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
