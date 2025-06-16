@@ -1,6 +1,23 @@
 <div class="container">
-    <div class="header">
-        <h1><span class="silo">Silo</span>Vision<span class="x">X</span></h1>
-        <button class="user"><fa-icon [icon]="iconUser"></fa-icon></button>
+  <div class="header">
+    <h1 class="logo">
+      <span class="silo">Silo</span>Vision<span class="x">X</span>
+    </h1>
+    <div class="user-wrapper">
+      <button class="user" (click)="overlay.toggle($event)">
+        <fa-icon [icon]="iconUser"></fa-icon>
+      </button>
+
+      <p-overlayPanel 
+        #overlay 
+        [dismissable]="true" 
+        [style]="{
+          width: '150px',
+          backgroundColor: '#f9f9f9',
+          borderRadius: '10px'
+        }">
+        <button class="profile-btn" routerLink="my-profile">Meu Perfil</button>
+      </p-overlayPanel>
     </div>
+  </div>
 </div>

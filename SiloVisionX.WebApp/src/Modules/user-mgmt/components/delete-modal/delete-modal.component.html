@@ -1,6 +1,9 @@
-<p-dialog header="Excluir Usuário" [modal]="true" [(visible)]="visible" [style]="{ width: '25rem'}" [draggable]="false">
+<p-dialog [modal]="true" [(visible)]="visible" [style]="{ width: '25rem'}" [draggable]="false">
     <div class="container">
-        <p>Tem certeza que deseja excluir este usuário: {{user?.name}}?</p>
-        <button class="btn">Confirmar <fa-icon [icon]="iconTrash"></fa-icon></button>
+        <h1>Excluir Usuário</h1>
+        <div class="main">
+            <p>Tem certeza que deseja excluir este usuário: <span>{{user?.name}}</span>?</p>
+            <button class="btn">Confirmar <fa-icon [icon]="iconTrash"></fa-icon></button>
+        </div>
     </div>
 </p-dialog>

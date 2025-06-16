@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { MyUserMgmtRoutingModule } from './my-user-mgmt-routing.module';
+import { LoginPageRoutingModule } from './login-page-routing.module';
+import { InputTextModule } from 'primeng/inputtext';
 import { IndexComponent } from './Components/index/index.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { DropdownModule } from 'primeng/dropdown';
-import { InputTextModule } from 'primeng/inputtext';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -14,10 +12,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     CommonModule,
     InputTextModule,
-    DropdownModule,
     ReactiveFormsModule,
-    FormsModule,
-    FontAwesomeModule
+    FormsModule
   ]
 })
-export class MyUserMgmtModule { }
+export class LoginPageModule { }

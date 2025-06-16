@@ -1,7 +1,13 @@
-<div class="container">
-    <app-header class="header"></app-header>
-    <div class="main">
-        <app-aside></app-aside>
-        <router-outlet />
-    </div>
+
+
+<div *ngIf="isLogin">
+    <router-outlet></router-outlet>
+</div>
+
+<div class="container" *ngIf="!isLogin">
+  <app-header class="header"></app-header>
+  <div class="main">
+    <app-aside></app-aside>
+    <router-outlet></router-outlet>
+  </div>
 </div>

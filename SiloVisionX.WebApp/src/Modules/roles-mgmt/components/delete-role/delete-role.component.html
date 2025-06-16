@@ -1,0 +1,9 @@
+<p-dialog  [modal]="true" [(visible)]="visible" [style]="{ width: '25rem'}" [draggable]="false">
+    <div class="container">
+        <h1>Excluir Permissão</h1>
+        <div class="main">
+            <p>Tem certeza que deseja excluir esta permissão: <span>{{role?.Name}}</span>?</p>
+            <button class="btn">Confirmar <fa-icon [icon]="iconTrash"></fa-icon></button>
+        </div>
+    </div>
+</p-dialog>

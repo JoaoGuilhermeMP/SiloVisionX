@@ -16,6 +16,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     AsideComponent,
     FontAwesomeModule
-]
+  ]
 })
 export class HomePageModule { }

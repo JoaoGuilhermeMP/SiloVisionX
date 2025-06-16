@@ -1,0 +1,22 @@
+<div class="container" *ngIf="!isTokenPage">
+    <div class="intro">
+        <h1>Bem-Vindo ao <span class="silo">Silo</span>Vision<span class="x">X</span>. <br> Um sistema para monitorar as condicões do seu silo.</h1>
+        <h2>Faça login por meio do seu email.</h2>
+        <h2>*Caso não tenha acesso, peça a criação do seu usuário para seu superior.</h2>
+        <form class="form" [formGroup]="form" (ngSubmit)="auth(form)">
+            <label>Email: </label>
+            <div class="btns">
+                <input type="text" pInputText placeholder="Digite seu email" formControlName="Email"/>
+                <button class="btn">Entrar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="image">
+
+    </div>
+</div>
+
+<div *ngIf="isTokenPage">
+
+</div>

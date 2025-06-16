@@ -1,0 +1,25 @@
+<p-dialog [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }" [draggable]="false">
+    <div class="container">
+        <h1 *ngIf="!isEdit">Criar Usuário</h1>
+        <h1 *ngIf="isEdit">Editar Usuário</h1>
+
+        <form class="form" [formGroup]="form">
+            
+            <div class="name form-group">
+                <Label>Nome</Label>
+                <input type="text" pInputText formControlName="Name"/>
+            </div>
+        
+            <div class="email form-group">
+                <label>Descrição</label>
+                <input type="text" pInputText formControlName="Description" />
+            </div>
+                        
+            <div>
+                <button class="btn"><span *ngIf="!isEdit">Criar</span> <span *ngIf="isEdit">Editar</span></button>
+            </div>
+
+        </form>
+
+    </div>
+</p-dialog>

@@ -1,0 +1,35 @@
+<div class="container">
+    <h1>Meu Perfil</h1>
+    <form class="form" [formGroup]="form">
+        
+        <div class="name form-group">
+            <Label>Nome</Label>
+            <input type="text" pInputText formControlName="Name"/>
+        </div>
+    
+        <div class="email form-group">
+            <label>Email</label>
+            <input type="text" pInputText formControlName="Email" />
+        </div>
+
+        <div class="cpf form-group">
+            <label>CPF</label>
+            <input type="text" pInputText formControlName="CPF" />
+        </div>
+
+        <div class="telefone form-group">
+            <label>Telefone</label>
+            <input type="text" pInputText formControlName="Telefone" />
+        </div>
+
+        <div class="roles form-group">
+            <label>Permissão</label>
+            <input type="text" pInputText formControlName="Role" />
+        </div>
+
+        <div class="logout">
+            <button class="btn">Sair <fa-icon [icon]="iconLogout"></fa-icon></button>
+        </div>
+    </form>
+
+</div>

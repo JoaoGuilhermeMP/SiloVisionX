@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { faAdd, faPencil, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { Table } from 'primeng/table';
 import { UserInnerService } from '../../service/user-inner.service';
@@ -9,7 +9,7 @@ import { UserInnerService } from '../../service/user-inner.service';
   templateUrl: './index.component.html',
   styleUrl: './index.component.css'
 })
-export class IndexComponent {
+export class IndexComponent implements OnInit, OnDestroy{
 
 
   /**
@@ -19,6 +19,7 @@ export class IndexComponent {
     
     
   }
+  
 
   @ViewChild('table') table!: Table;
 
@@ -42,7 +43,7 @@ export class IndexComponent {
       email: 'carlos.lima@email.com',
       cpf: '345.678.901-22',
       telefone: '(21) 91234-5678',
-      permissions: 'Visualizador'
+      permissions: 'Convidado'
     },
     {
       name: 'Ana Oliveira',
@@ -63,6 +64,20 @@ export class IndexComponent {
   iconDelete = faTrash
   iconAdd = faAdd
 
+
+  ngOnInit(): void {
+    console.log('teste')
+  }
+  ngOnDestroy(): void {
+    this.pageService.$deleteModalState.next({
+      visible: false, data: null
+    })
+
+    this.pageService.$modalState.next({
+      visible: false, data: null, isEdit: false
+    })
+     console.log('destruido')
+  }
 
   openModal() {
     this.pageService.$modalState.next({

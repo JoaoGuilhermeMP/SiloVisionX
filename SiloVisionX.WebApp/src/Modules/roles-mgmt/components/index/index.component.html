@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="header">
+        <button class="add" (click)="addRole()">Adicionar <fa-icon [icon]="iconCreate"></fa-icon></button>
+    </div>
+    <div>
+        <p-table #table [value]="data" [paginator]="true" [rows]="10" [style]="{'width': '80vw', 'padding': '20px', 'height': '100vh'}" [globalFilterFields]="['name', 'email', 'cpf', 'telefone', 'permissions']">
+            <ng-template pTemplate="header">
+                <tr style="padding: 40px;">
+                    <th style="padding: 20px;">Nome</th>
+                    <th style="padding: 20px;">Descrição</th>
+                    <th style="padding: 20px;">Ações</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-role>
+                <tr >
+                    <td style="padding: 20px;">{{ role?.Name }}</td>
+                    <td>{{ role?.Description }}</td>
+                    <td class="actions">
+                        <button class="edit" (click)="editRole(role)"><fa-icon [icon]="iconEdit"></fa-icon></button>
+                        <button class="delete" (click)="deleteRole(role)"><fa-icon [icon]="iconDelete"></fa-icon></button>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>
+
+<delete-role></delete-role>
+
+<create-or-edit-roles></create-or-edit-roles>

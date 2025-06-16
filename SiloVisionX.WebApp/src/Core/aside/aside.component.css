@@ -9,6 +9,7 @@ a {
     width: 350px;
     height: 100vh;
     background-color: rgb(59, 22, 5);
+    
 }
 
 .pages {
@@ -19,6 +20,7 @@ a {
     flex-direction: column;
     gap: 70px;
     background-color: rgb(59, 22, 5);
+    border-top: 2px solid white;
 
 }
 

@@ -1,0 +1,82 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    border-right: 2px solid white;
+    padding: 20px;
+}
+
+.intro > h1 {
+    margin-bottom: 10px;
+}
+
+.intro > h2 {
+    margin-top: 20px;
+}
+
+
+
+.form {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form > label {
+    align-self: flex-start;
+}
+
+.btn {
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 255, 0);
+}
+
+.btn:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+:host ::ng-deep input[pInputText] {
+  padding: 5px;
+  width: 400px;
+  height: 40px;
+}
+
+.image {
+    width: 40%;
+    height: 100%;
+    background-image:url('../../../../Assets/image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.x, .silo {
+  color: rgb(40, 128, 13);
+}
