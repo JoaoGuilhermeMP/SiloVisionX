@@ -29,6 +29,7 @@ ALTURA_SILO = 400
 def conecta_wifi():
     wifi = network.WLAN(network.STA_IF)
     wifi.active(True)
+    
     if not wifi.isconnected():
         print('Conectando ao WiFi...')
         wifi.connect(SSID, PASSWORD)
