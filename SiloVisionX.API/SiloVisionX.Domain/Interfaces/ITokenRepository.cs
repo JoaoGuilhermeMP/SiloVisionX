@@ -10,9 +10,9 @@ namespace SiloVisionX.Domain.Interfaces
     public interface ITokenRepository
     {
 
-        public Token CreateToken(string token, int userId);
+        public Task<Token> CreateToken(string token, int userId);
 
-        public Token GetToken(Token token);
+        public Task<Token> GetToken(int userId);
 
     }
 }

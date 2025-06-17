@@ -14,7 +14,7 @@ namespace SiloVisionX.Domain.Interfaces
 
         public Roles CreateRoles(Roles role);
 
-        public Roles UpdateRoles(Roles role);
+        public Task<Roles> UpdateRoles(Roles role);
 
         public bool DeleteRoles(Roles role);
 

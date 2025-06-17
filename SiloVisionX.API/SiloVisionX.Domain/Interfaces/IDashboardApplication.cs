@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,6 +12,8 @@ namespace SiloVisionX.Domain.Interfaces
     {
 
         public List<Geral> GetDashboardData();
+
+        public Task CreateDataAsync(Geral data);
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using SiloVisionX.Domain.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using SiloVisionX.Domain.Interfaces;
 using SiloVisionX.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace SiloVisionX.Infra.Repositories
             _context = context;
         }
 
-        Token ITokenRepository.CreateToken(string token, int userId)
+        async Task<Token> ITokenRepository.CreateToken(string token, int userId)
         {
 
             var data = new Token
@@ -27,17 +28,17 @@ namespace SiloVisionX.Infra.Repositories
                 UserId = userId
             };
 
-            _context.Tokens.Add(data);
+            await _context.Tokens.AddAsync(data);
             _context.SaveChanges();
 
             return data;
         }
 
-        Token ITokenRepository.GetToken(Token token)
+        async Task<Token> ITokenRepository.GetToken(int userId)
         {
-            _context.Tokens.FirstOrDefault(t => t.UserId == token.UserId);
+            var data =  await _context.Tokens.FirstOrDefaultAsync(t => t.UserId == userId);
 
-            return token;
+            return data;
         }
     }
 }

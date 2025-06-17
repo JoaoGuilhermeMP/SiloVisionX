@@ -24,18 +24,25 @@ namespace SiloVisionX.Application.Applications
             userRepository = user;
         }
 
-        Token IAuthApplication.CreateToken(string email)
+        async Task<Token>  IAuthApplication.CreateToken(string email)
         {
             var token = GerarTokenFormatado();
 
             var user = userRepository.getUserByEmail(email);
 
+            if (user == null)
+            {
+                ILogger.Fatal($"User with email {email} not found.");
+                return null;
+            }
+
             var userId = user.Id;
 
-           var data = _tokenRepository.CreateToken(token, userId);
+           var data =  await _tokenRepository.CreateToken(token, userId);
 
             if (data != null)
             {
+                ILogger.Info($"Token {token} created for user {email} with ID {userId}.");
                 return data;
             }
 
@@ -43,9 +50,28 @@ namespace SiloVisionX.Application.Applications
 
         }
 
-        Token IAuthApplication.GetToken(int userId)
+        Task<Token> IAuthApplication.GetToken(string userEmail)
         {
-            throw new NotImplementedException();
+            var user = userRepository.getUserByEmail(userEmail);
+
+            if (user == null)
+            {
+                ILogger.Fatal($"User with email {userEmail} not found.");
+                return null;
+            }
+
+            var userId = user.Id;
+
+            var data = _tokenRepository.GetToken(userId);
+
+            if(data != null)
+            {
+                ILogger.Info($"Token retrieved for user {userEmail} with ID {userId}.");
+                return data;
+            }
+
+            return null;
+
         }
 
         public static string GerarTokenFormatado()

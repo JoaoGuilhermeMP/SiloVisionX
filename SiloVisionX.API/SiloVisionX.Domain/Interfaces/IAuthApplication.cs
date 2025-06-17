@@ -10,9 +10,9 @@ namespace SiloVisionX.Domain.Interfaces
     public interface IAuthApplication
     {
 
-        public Token CreateToken(string email);
+        public Task<Token> CreateToken(string email);
 
-        public Token GetToken(int userId);
+        public Task<Token> GetToken(string email);
 
     }
 }

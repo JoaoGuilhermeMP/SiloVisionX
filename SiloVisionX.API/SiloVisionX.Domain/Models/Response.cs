@@ -9,10 +9,10 @@ namespace SiloVisionX.Domain.Models
 {
     public class Response<T>
     {
-        HttpStatusCode StatusCode { get; set; }
-        string Message { get; set; }
-        List<T> Data { get; set; }
-        bool IsSuccess { get; set; }
+        public HttpStatusCode StatusCode { get; set; }
+        public string Message { get; set; }
+        public List<T> Data { get; set; }
+        public bool IsSuccess { get; set; }
 
 
     }

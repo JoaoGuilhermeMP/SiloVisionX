@@ -1,10 +1,22 @@
+using Autofac.Extensions.DependencyInjection;
+using Autofac;
 using Microsoft.EntityFrameworkCore;
+using SiloVisionX.API.DI;
 using SiloVisionX.Infra;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
+// Configurar o container do Autofac
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
+{
+    containerBuilder.RegisterModule(new DependencyInjectionModule());
+});
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

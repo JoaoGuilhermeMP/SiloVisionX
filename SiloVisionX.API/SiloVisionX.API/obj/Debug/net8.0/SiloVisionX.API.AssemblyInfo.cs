@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SiloVisionX.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+676e14f81fdc33ae59e1114f7a12db7907b701b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35db6fb398b4ae28d46b536ce658b4491aca80fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("SiloVisionX.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SiloVisionX.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

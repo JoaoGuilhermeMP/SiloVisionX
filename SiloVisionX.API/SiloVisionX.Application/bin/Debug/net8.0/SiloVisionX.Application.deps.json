@@ -1074,7 +1074,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
         },
         "runtime": {
-          "SiloVisionX.Domain.dll": {}
+          "SiloVisionX.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SiloVisionX.Infra/1.0.0": {
@@ -1086,7 +1089,10 @@
           "SiloVisionX.Domain": "1.0.0"
         },
         "runtime": {
-          "SiloVisionX.Infra.dll": {}
+          "SiloVisionX.Infra.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

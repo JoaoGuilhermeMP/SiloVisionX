@@ -1,0 +1,316 @@
+[
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.AuthController",
+    "Method": "CreateToken",
+    "RelativePath": "api/Auth/CreateToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.Token, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.AuthController",
+    "Method": "GetToken",
+    "RelativePath": "api/Auth/GetToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.Token, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.DashboardController",
+    "Method": "GetDashboardData",
+    "RelativePath": "api/Dashboard/GetDashboardData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[System.Collections.Generic.List\u00601[[SiloVisionX.Domain.Models.Geral, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.ReportController",
+    "Method": "GetReportData",
+    "RelativePath": "api/Report/GetReportData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[System.Collections.Generic.List\u00601[[SiloVisionX.Domain.Models.Geral, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.RolesController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Roles/CreateRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "SiloVisionX.Domain.Models.Roles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.Roles, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.RolesController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/Roles/DeleteRole",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "SiloVisionX.Domain.Models.Roles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.Roles, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.RolesController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/Roles/GetAllRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.Roles, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.RolesController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Roles/UpdateRole",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "SiloVisionX.Domain.Models.Roles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.Roles, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.UsersController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Users/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "SiloVisionX.Domain.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.User, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/DeleteUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.User, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.UsersController",
+    "Method": "EditUser",
+    "RelativePath": "api/Users/EditUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "SiloVisionX.Domain.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.User, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Users/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.User, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.UsersController",
+    "Method": "GetUserByEmail",
+    "RelativePath": "api/Users/GetUserByEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.User, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
