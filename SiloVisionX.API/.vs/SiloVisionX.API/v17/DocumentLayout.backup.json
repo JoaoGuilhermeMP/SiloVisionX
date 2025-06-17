@@ -1,272 +1,256 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\",
+  "WorkspaceRootPath": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\authapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\applications\\authapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617134245_UpdateToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SiloVisionX.Infra\\Migrations\\20250617134245_UpdateToken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617133917_UpdateNivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SiloVisionX.Infra\\Migrations\\20250617133917_UpdateNivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\nivelmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\nivelmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\nivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\nivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\nivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\nivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\inivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\inivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\silovisionx.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\silovisionx.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\di\\dependencyinjectionmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\di\\dependencyinjectionmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\iauthapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\iauthapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\tokenmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\tokenmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617125415_Updates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SiloVisionX.Infra\\Migrations\\20250617125415_Updates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\applications\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\iuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\iuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\reportapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\applications\\reportapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\silovisionx.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\silovisionx.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617122842_Seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SiloVisionX.Infra\\Migrations\\20250617122842_Seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\silovisionx.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\silovisionx.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\dashboardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\applications\\dashboardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\idashboardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\idashboardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\igeralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\igeralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\LogData\\20250617115710_CreatingLogDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SiloVisionX.Infra\\Migrations\\LogData\\20250617115710_CreatingLogDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617115549_CreatingDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SiloVisionX.Infra\\Migrations\\20250617115549_CreatingDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\geralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\geralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\geralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\igeralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\igeralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\reportapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\applications\\reportapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\ireportapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\ireportapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\ireportapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\rolesapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\rolesapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\applications\\rolesapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\irolesapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\irolesapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\silovisionx.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\silovisionx.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\dashboardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\applications\\dashboardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\temprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\temprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\itemprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\itemprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\silovisionx.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\silovisionx.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\humrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\humrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\ihumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\ihumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\idashboardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\idashboardapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\geral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\iuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\iuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\geral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\geral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\loggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\loggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\umidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\authapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\applications\\authapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\humrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\humrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617153927_UpdatingDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SiloVisionX.Infra\\Migrations\\20250617153927_UpdatingDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\nivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\nivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\umidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\umidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\iloggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\nivelmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\nivelmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\usermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\nivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\nivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\inivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\inivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.api\\di\\dependencyinjectionmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5EF0C9-777E-4933-824A-70E07BCF9805}|SiloVisionX.API\\SiloVisionX.API.csproj|solutionrelative:silovisionx.api\\di\\dependencyinjectionmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\iauthapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\iauthapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\dto\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\tokenmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\tokenmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\applications\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\applications\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\silovisionx.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\silovisionx.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\silovisionx.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\silovisionx.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\irolesapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\irolesapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\temprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\temprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\itemprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\itemprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\ihumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\ihumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\repositories\\loggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\repositories\\loggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\interfaces\\iloggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\interfaces\\iloggerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\logdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\logdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\logdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250616195203_CriandoBancoNoNotebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.application\\silovisionx.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{588FE987-B274-438B-A16D-59DBAC8F9527}|SiloVisionX.Application\\SiloVisionX.Application.csproj|solutionrelative:silovisionx.application\\silovisionx.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\logmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\logmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\logmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\geralmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\geralmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\geralmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\rolesmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\rolesmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\rolesmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\temperaturamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\temperaturamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\temperaturamapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\umidademapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|c:\\users\\joaog\\documents\\silovisionx\\silovisionx.api\\silovisionx.infra\\mappings\\umidademapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AADDE27E-B332-4054-9A3E-DAF26478BB58}|SiloVisionX.Infra\\SiloVisionX.Infra.csproj|solutionrelative:silovisionx.infra\\mappings\\umidademapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|c:\\users\\palmajoa\\documents\\silovisionx\\silovisionx.api\\silovisionx.domain\\models\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A9B3AB-7153-4CA6-99EA-7C6627A7C18F}|SiloVisionX.Domain\\SiloVisionX.Domain.csproj|solutionrelative:silovisionx.domain\\models\\temperatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36B91360-8F17-4ACF-88B9-A247975638FC}|Itens de Solu\u00E7\u00E3o{36B91360-8F17-4ACF-88B9-A247975638FC}|C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{36B91360-8F17-4ACF-88B9-A247975638FC}|Itens de Solu\u00E7\u00E3o{36B91360-8F17-4ACF-88B9-A247975638FC}|C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{36B91360-8F17-4ACF-88B9-A247975638FC}|Itens de Solu\u00E7\u00E3o{36B91360-8F17-4ACF-88B9-A247975638FC}|solutionrelative:Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -281,199 +265,147 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250617133917_UpdateNivel.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617133917_UpdateNivel.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Migrations\\20250617133917_UpdateNivel.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617133917_UpdateNivel.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Migrations\\20250617133917_UpdateNivel.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ReportApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\ReportApplication.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\ReportApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\ReportApplication.cs",
+              "RelativeToolTip": "SiloVisionX.Application\\Applications\\ReportApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:39:18.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NivelRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\NivelRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\NivelRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\NivelRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\NivelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T21:31:23.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DependencyInjectionModule.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\DI\\DependencyInjectionModule.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.API\\DI\\DependencyInjectionModule.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\DI\\DependencyInjectionModule.cs",
-              "RelativeToolTip": "SiloVisionX.API\\DI\\DependencyInjectionModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T02:00:11.955Z",
+              "WhenOpened": "2025-06-16T23:36:02.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "INivelRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\INivelRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\INivelRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\INivelRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\INivelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "DashboardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\DashboardDTO.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\DTO\\DashboardDTO.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\DashboardDTO.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\DTO\\DashboardDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:11:57.971Z",
+              "WhenOpened": "2025-06-17T16:48:07.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Nivel.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Nivel.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Nivel.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Nivel.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Nivel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.API\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "SiloVisionX.API\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAIwGoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:34:40.861Z",
+              "WhenOpened": "2025-06-16T23:34:17.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UserMapping.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\UserMapping.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\UserMapping.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\UserMapping.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\UserMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Title": "RolesApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\RolesApplication.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\RolesApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\RolesApplication.cs",
+              "RelativeToolTip": "SiloVisionX.Application\\Applications\\RolesApplication.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:56:02.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Token.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Token.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Token.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Token.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:34:49.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\AuthApplication.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\AuthApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\AuthApplication.cs",
-              "RelativeToolTip": "SiloVisionX.Application\\Applications\\AuthApplication.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:35:34.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "SiloVisionX.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwEgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:33:58.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250617134245_UpdateToken.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617134245_UpdateToken.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Migrations\\20250617134245_UpdateToken.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617134245_UpdateToken.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Migrations\\20250617134245_UpdateToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:42:45.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TokenRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\TokenRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\TokenRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\TokenRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\TokenRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T21:31:34.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IUserApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IUserApplication.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IUserApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IUserApplication.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IUserApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:36:55.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ITokenRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ITokenRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\ITokenRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ITokenRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\ITokenRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T22:47:13.123Z",
+              "WhenOpened": "2025-06-16T23:36:28.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "NivelMapping.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\NivelMapping.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\NivelMapping.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\NivelMapping.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\NivelMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T03:17:06.061Z",
+              "WhenOpened": "2025-06-16T21:31:29.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.API\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "SiloVisionX.API\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:34:31.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IReportApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IReportApplication.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IReportApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IReportApplication.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IReportApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:37:26.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGeralRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IGeralRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IGeralRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IGeralRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IGeralRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:01:34.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GeralRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\GeralRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\GeralRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\GeralRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\GeralRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCUAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:30:53.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "SiloVisionX.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\SiloVisionX.Application.csproj",
+              "RelativeDocumentMoniker": "SiloVisionX.Application\\SiloVisionX.Application.csproj",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\SiloVisionX.Application.csproj",
+              "RelativeToolTip": "SiloVisionX.Application\\SiloVisionX.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-15T03:51:22.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SiloVisionX.API.csproj",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\SiloVisionX.API.csproj",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\SiloVisionX.API.csproj",
               "RelativeDocumentMoniker": "SiloVisionX.API\\SiloVisionX.API.csproj",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\SiloVisionX.API.csproj",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\SiloVisionX.API.csproj",
               "RelativeToolTip": "SiloVisionX.API\\SiloVisionX.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-15T03:51:42.899Z",
               "EditorCaption": ""
@@ -481,179 +413,397 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "IAuthApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IAuthApplication.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IAuthApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IAuthApplication.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IAuthApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:37:50.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "SiloVisionX.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "SiloVisionX.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAIwGUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwGUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T23:33:43.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TokenMapping.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\TokenMapping.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\TokenMapping.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\TokenMapping.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\TokenMapping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "DashboardApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\DashboardApplication.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\DashboardApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\DashboardApplication.cs",
+              "RelativeToolTip": "SiloVisionX.Application\\Applications\\DashboardApplication.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv3EAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T03:08:11.193Z",
+              "WhenOpened": "2025-06-16T23:36:13.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20250617122842_Seed.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617122842_Seed.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Migrations\\20250617122842_Seed.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617122842_Seed.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Migrations\\20250617122842_Seed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "IDashboardApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IDashboardApplication.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IDashboardApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IDashboardApplication.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IDashboardApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T12:28:42.394Z",
+              "WhenOpened": "2025-06-16T23:37:38.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Roles.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Roles.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Roles.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Roles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.API\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "SiloVisionX.API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:39:05.504Z",
+              "WhenOpened": "2025-06-16T23:34:54.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IUserApplication.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IUserApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IUserApplication.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IUserApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:36:55.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "TokenDTO.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\TokenDTO.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\DTO\\TokenDTO.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\TokenDTO.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\DTO\\TokenDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Title": "Geral.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Geral.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Geral.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Geral.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Geral.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T12:57:36.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ReportApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\ReportApplication.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\ReportApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\ReportApplication.cs",
-              "RelativeToolTip": "SiloVisionX.Application\\Applications\\ReportApplication.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:36:02.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\RoleRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\RoleRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\RoleRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T21:31:29.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IRoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IRoleRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IRoleRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IRoleRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IRoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T22:02:36.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\UserApplication.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\UserApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\UserApplication.cs",
-              "RelativeToolTip": "SiloVisionX.Application\\Applications\\UserApplication.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowEkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:35:47.296Z",
+              "WhenOpened": "2025-06-15T02:35:01.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "20250617125415_Updates.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617125415_Updates.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Migrations\\20250617125415_Updates.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617125415_Updates.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Migrations\\20250617125415_Updates.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Title": "AuthApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\AuthApplication.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\AuthApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\AuthApplication.cs",
+              "RelativeToolTip": "SiloVisionX.Application\\Applications\\AuthApplication.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAgwHgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T12:54:15.55Z",
+              "WhenOpened": "2025-06-16T23:35:34.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SiloVisionX.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:33:58.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwCcAAAApAAAAAAAAAA==",
+              "Title": "HumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\HumRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\HumRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\HumRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\HumRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T21:31:36.496Z",
+              "WhenOpened": "2025-06-16T23:29:36.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SiloVisionX.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\appsettings.json",
+              "RelativeToolTip": "SiloVisionX.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T01:30:03.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Program.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.API\\Program.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Program.cs",
+              "RelativeToolTip": "SiloVisionX.API\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T21:41:06.273Z",
+              "WhenOpened": "2025-06-11T01:32:39.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Nivel.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Nivel.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Nivel.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Nivel.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Nivel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:34:40.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Temperatura.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Temperatura.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Temperatura.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Temperatura.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Temperatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:35:10.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250617153927_UpdatingDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617153927_UpdatingDatabase.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Migrations\\20250617153927_UpdatingDatabase.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617153927_UpdatingDatabase.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Migrations\\20250617153927_UpdatingDatabase.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T15:39:27.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "Umidade.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Umidade.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Umidade.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Umidade.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Umidade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:35:21.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserMapping.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\UserMapping.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\UserMapping.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\UserMapping.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\UserMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:56:02.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Token.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Token.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Token.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:34:49.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "INivelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\INivelRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\INivelRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\INivelRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\INivelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:11:57.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DependencyInjectionModule.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\DI\\DependencyInjectionModule.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.API\\DI\\DependencyInjectionModule.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\DI\\DependencyInjectionModule.cs",
+              "RelativeToolTip": "SiloVisionX.API\\DI\\DependencyInjectionModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:00:11.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NivelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\NivelRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\NivelRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\NivelRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\NivelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:31:23.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\TokenRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\TokenRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\TokenRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\TokenRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:31:34.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ITokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ITokenRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\ITokenRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ITokenRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\ITokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:47:13.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NivelMapping.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\NivelMapping.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\NivelMapping.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\NivelMapping.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\NivelMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T03:17:06.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAuthApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IAuthApplication.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IAuthApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IAuthApplication.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IAuthApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:37:50.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TokenMapping.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\TokenMapping.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\TokenMapping.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\TokenMapping.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\TokenMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T03:08:11.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Roles.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Roles.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T02:39:05.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\TokenDTO.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\DTO\\TokenDTO.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\TokenDTO.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\DTO\\TokenDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T12:57:36.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:02:36.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\UserApplication.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\UserApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\UserApplication.cs",
+              "RelativeToolTip": "SiloVisionX.Application\\Applications\\UserApplication.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:35:47.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwCcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:31:36.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:41:06.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "SiloVisionX.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\SiloVisionX.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\SiloVisionX.Domain.csproj",
               "RelativeDocumentMoniker": "SiloVisionX.Domain\\SiloVisionX.Domain.csproj",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\SiloVisionX.Domain.csproj",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\SiloVisionX.Domain.csproj",
               "RelativeToolTip": "SiloVisionX.Domain\\SiloVisionX.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -662,102 +812,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 45,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\User.cs",
               "RelativeToolTip": "SiloVisionX.Domain\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:34:29.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T02:34:29.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\DataContext.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\DataContext.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\DataContext.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\DataContext.cs",
               "RelativeToolTip": "SiloVisionX.Infra\\DataContext.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAACsAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:27:53.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T02:27:53.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Domain\\DTO\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\DTO\\UserDTO.cs",
               "RelativeToolTip": "SiloVisionX.Domain\\DTO\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T12:13:10.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T12:13:10.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IGeralRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IGeralRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IGeralRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IGeralRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IGeralRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:01:34.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IDashboardApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IDashboardApplication.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IDashboardApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IDashboardApplication.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IDashboardApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:37:38.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.API\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "SiloVisionX.API\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwEQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:34:54.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "DashboardApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\DashboardApplication.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\DashboardApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\DashboardApplication.cs",
-              "RelativeToolTip": "SiloVisionX.Application\\Applications\\DashboardApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:36:13.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "SiloVisionX.Infra.csproj",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\SiloVisionX.Infra.csproj",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\SiloVisionX.Infra.csproj",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\SiloVisionX.Infra.csproj",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\SiloVisionX.Infra.csproj",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\SiloVisionX.Infra.csproj",
               "RelativeToolTip": "SiloVisionX.Infra\\SiloVisionX.Infra.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -766,123 +861,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "GeralRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\GeralRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\GeralRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\GeralRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\GeralRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T21:30:53.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "20250617115549_CreatingDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617115549_CreatingDatabase.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Migrations\\20250617115549_CreatingDatabase.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250617115549_CreatingDatabase.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Migrations\\20250617115549_CreatingDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T11:55:49.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "20250617115710_CreatingLogDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\LogData\\20250617115710_CreatingLogDatabase.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Migrations\\LogData\\20250617115710_CreatingLogDatabase.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\LogData\\20250617115710_CreatingLogDatabase.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Migrations\\LogData\\20250617115710_CreatingLogDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T11:57:10.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.API\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "SiloVisionX.API\\Controllers\\RolesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:34:17.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\appsettings.json",
-              "RelativeDocumentMoniker": "SiloVisionX.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\appsettings.json",
-              "RelativeToolTip": "SiloVisionX.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-11T01:30:03.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Program.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.API\\Program.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Program.cs",
-              "RelativeToolTip": "SiloVisionX.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T01:32:39.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "IReportApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IReportApplication.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IReportApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IReportApplication.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IReportApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:37:26.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ReportController.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\ReportController.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.API\\Controllers\\ReportController.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.API\\Controllers\\ReportController.cs",
-              "RelativeToolTip": "SiloVisionX.API\\Controllers\\ReportController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:34:31.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "RolesApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\RolesApplication.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Application\\Applications\\RolesApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\Applications\\RolesApplication.cs",
-              "RelativeToolTip": "SiloVisionX.Application\\Applications\\RolesApplication.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAArwCcAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:36:28.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "IRolesApplication.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IRolesApplication.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IRolesApplication.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IRolesApplication.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IRolesApplication.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IRolesApplication.cs",
               "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IRolesApplication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -890,11 +873,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Response.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Response.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Response.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Response.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Response.cs",
               "RelativeToolTip": "SiloVisionX.Domain\\Models\\Response.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -903,22 +886,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 50,
-              "Title": "HumRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\HumRepository.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\HumRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\HumRepository.cs",
-              "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\HumRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:29:36.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
               "Title": "ITempRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ITempRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ITempRepository.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\ITempRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ITempRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ITempRepository.cs",
               "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\ITempRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -928,9 +899,9 @@
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "IHumRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IHumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IHumRepository.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\IHumRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IHumRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\IHumRepository.cs",
               "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\IHumRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -938,11 +909,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "LoggerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\LoggerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\LoggerRepository.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\LoggerRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\LoggerRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\LoggerRepository.cs",
               "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\LoggerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -950,11 +921,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "TempRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\TempRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\TempRepository.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\Repositories\\TempRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\TempRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Repositories\\TempRepository.cs",
               "RelativeToolTip": "SiloVisionX.Infra\\Repositories\\TempRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -962,35 +933,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Umidade.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Umidade.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Umidade.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Umidade.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Umidade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:35:21.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Geral.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Geral.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Geral.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Geral.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Geral.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:35:01.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 53,
               "Title": "ILoggerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ILoggerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ILoggerRepository.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Domain\\Interfaces\\ILoggerRepository.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ILoggerRepository.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Interfaces\\ILoggerRepository.cs",
               "RelativeToolTip": "SiloVisionX.Domain\\Interfaces\\ILoggerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -998,11 +945,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 54,
               "Title": "LogDataContext.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\LogDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\LogDataContext.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\LogDataContext.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\LogDataContext.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\LogDataContext.cs",
               "RelativeToolTip": "SiloVisionX.Infra\\LogDataContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1010,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 55,
               "Title": "20250616195203_CriandoBancoNoNotebook.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250616195203_CriandoBancoNoNotebook.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\User\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Migrations\\20250616195203_CriandoBancoNoNotebook.cs",
@@ -1021,24 +968,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "SiloVisionX.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\SiloVisionX.Application.csproj",
-              "RelativeDocumentMoniker": "SiloVisionX.Application\\SiloVisionX.Application.csproj",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Application\\SiloVisionX.Application.csproj",
-              "RelativeToolTip": "SiloVisionX.Application\\SiloVisionX.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-15T03:51:22.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 56,
               "Title": "LogMapping.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\LogMapping.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\LogMapping.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\LogMapping.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\LogMapping.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\LogMapping.cs",
               "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\LogMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1046,11 +980,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 57,
               "Title": "Log.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Log.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Log.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Log.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Log.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Log.cs",
               "RelativeToolTip": "SiloVisionX.Domain\\Models\\Log.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1058,11 +992,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 59,
               "Title": "RolesMapping.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\RolesMapping.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\RolesMapping.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\RolesMapping.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\RolesMapping.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\RolesMapping.cs",
               "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\RolesMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1070,11 +1004,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 60,
               "Title": "TemperaturaMapping.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\TemperaturaMapping.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\TemperaturaMapping.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\TemperaturaMapping.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\TemperaturaMapping.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\TemperaturaMapping.cs",
               "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\TemperaturaMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1082,11 +1016,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 61,
               "Title": "UmidadeMapping.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\UmidadeMapping.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\UmidadeMapping.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\UmidadeMapping.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\UmidadeMapping.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\UmidadeMapping.cs",
               "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\UmidadeMapping.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAwwBgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1094,11 +1028,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 58,
               "Title": "GeralMapping.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\GeralMapping.cs",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\GeralMapping.cs",
               "RelativeDocumentMoniker": "SiloVisionX.Infra\\Mappings\\GeralMapping.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\GeralMapping.cs",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Infra\\Mappings\\GeralMapping.cs",
               "RelativeToolTip": "SiloVisionX.Infra\\Mappings\\GeralMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1106,27 +1040,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 62,
               "Title": "Directory.Build.props",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\Directory.Build.props",
+              "DocumentMoniker": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\Directory.Build.props",
               "RelativeDocumentMoniker": "Directory.Build.props",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\Directory.Build.props",
+              "ToolTip": "C:\\Users\\joaog\\Documents\\SiloVisionX\\SiloVisionX.API\\Directory.Build.props",
               "RelativeToolTip": "Directory.Build.props",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-06-15T02:54:10.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Temperatura.cs",
-              "DocumentMoniker": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Temperatura.cs",
-              "RelativeDocumentMoniker": "SiloVisionX.Domain\\Models\\Temperatura.cs",
-              "ToolTip": "C:\\Users\\palmajoa\\Documents\\SiloVisionX\\SiloVisionX.API\\SiloVisionX.Domain\\Models\\Temperatura.cs",
-              "RelativeToolTip": "SiloVisionX.Domain\\Models\\Temperatura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T02:35:10.475Z"
             }
           ]
         }

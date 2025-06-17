@@ -5,3 +5,12 @@
 .table-header {
     padding: 20px;
 }
+
+.export {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 50px;
+}

@@ -17,6 +17,16 @@ namespace SiloVisionX.Infra.Repositories
             _context = context;          
         }
 
+        public DateTime? GetLastFatalStatus()
+        {
+            Geral? lastRedAlert = _context.Geral
+                .OrderByDescending(x => x.Data)
+                .Where(x => x.Status == "fatal")
+                .FirstOrDefault();
+
+            return lastRedAlert?.Data ;
+        }
+
         Geral IGeralRepository.CreateData(Geral geral)
         {
             _context.Geral.Add(geral);
@@ -25,21 +35,40 @@ namespace SiloVisionX.Infra.Repositories
             return geral;
         }
 
-        List<Geral> IGeralRepository.GetAllData()
+        List<Geral> IGeralRepository.GetAllData(DateTime initialDate, DateTime finalDate)
         {
             var geralList = new List<Geral>();
 
             var geralDatabase = _context.Geral
-                .OrderByDescending(x => x.Data)
-                .ToList();
+            .Where(x => x.Data >= initialDate && x.Data <= finalDate)
+            .OrderByDescending(x => x.Data)
+            .ToList();
 
-            if (geralDatabase.Count == 0 || geralDatabase == null)
+            if (geralDatabase == null)
             {
-                return geralList;
+                return null;
             }
 
             return geralDatabase;
 
         }
+
+        Geral IGeralRepository.GetDashboardData()
+        {
+            var geralList = new List<Geral>();
+
+            var geralDatabase = _context.Geral
+                .OrderByDescending(x => x.Data)
+                .FirstOrDefault();
+
+            if (geralDatabase == null)
+            {
+                return null;
+            }
+
+            return geralDatabase;
+        }
+
+
     }
 }

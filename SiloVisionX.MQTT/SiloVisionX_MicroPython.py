@@ -6,8 +6,8 @@ from umqtt.simple import MQTTClient
 import json
 
 
-SSID = 'Visitantes'
-PASSWORD = ''
+SSID = 'LUCAS'
+PASSWORD = '01031995'
 
 
 MQTT_BROKER = 'broker.mqttdashboard.com'
@@ -41,25 +41,29 @@ def conecta_wifi():
 def medir_distancia():
     max_tentativas = 3
     for tentativa in range(max_tentativas):
-        TRIG.off()
-        time.sleep_us(2)
-        TRIG.on()
-        time.sleep_us(10)
-        TRIG.off()
-        
         try:
-            duracao = time_pulse_us(ECHO, 1, 50000)
+            TRIG.off()
+            time.sleep_us(2)
+            TRIG.on()
+            time.sleep_us(10)
+            TRIG.off()
+            
+            duracao = time_pulse_us(ECHO, 1, 50000)  
             if duracao <= 0:
                 print(f"Tentativa {tentativa+1}: Falha na leitura (duração inválida)")
                 continue
+
             distancia = (duracao / 2) / 58
             return distancia
+
         except Exception as e:
             print(f"Tentativa {tentativa+1}: Erro ao medir distância: {e}")
+            time.sleep(0.2)  
             continue
 
     print("Erro persistente na medição! Retornando altura máxima do silo.")
     return ALTURA_SILO
+
 
 
 def checkWeather():
@@ -148,4 +152,5 @@ print("Conectado ao MQTT. Aguardando comandos em:", CMD_TOPIC)
 
 while True:
     mqtt_client.check_msg()  
-    time.sleep(0.1)
+    time.sleep(3)
+

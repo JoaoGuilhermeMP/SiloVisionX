@@ -9,15 +9,17 @@
                 <input type="text" pInputText placeholder="Digite seu email" formControlName="Email"/>
                 <button class="btn">Entrar</button>
             </div>
+            <div *ngIf="erroAoLogar">Erro ao logar tente novamente corrigindo o email!!</div>
         </form>
     </div>
 
     <div class="intro" *ngIf="isTokenPage">
         Por favor, insira o token de acesso que foi enviado para o seu email.
-        <form class="form">
+        <h1 *ngIf="!confirmedToken"></h1>
+        <form class="form" [formGroup]="authToken" (ngSubmit)="confirmToken(authToken)">
             <label>Token:</label>
             <div class="btns">
-                <input type="text" pInputText placeholder="Digite o Token"/>
+                <input type="text" pInputText placeholder="Digite o Token" formControlName="Token"/>
                 <button class="btn">Confirmar</button>
             </div>
         </form>

@@ -11,6 +11,9 @@ import { DialogModule } from 'primeng/dialog';
 import { InputTextModule } from 'primeng/inputtext';
 import { DropdownModule } from 'primeng/dropdown';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { UserApiService } from '../../api/UserApi/user-api.service';
+import { RolesApiService } from '../../api/RolesApi/roles-api.service';
 
 
 @NgModule({
@@ -22,7 +25,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     DialogModule,
     InputTextModule,
     DropdownModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
+  ],
+  providers: [
+    UserApiService,
+    RolesApiService
   ]
 })
 export class UserMgmtModule { }

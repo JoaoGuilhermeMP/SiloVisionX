@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SiloVisionX.Domain.DTO;
 using SiloVisionX.Domain.Interfaces;
 using SiloVisionX.Domain.Models;
 
@@ -19,29 +20,28 @@ namespace SiloVisionX.API.Controllers
         }
 
         [HttpGet("GetDashboardData")]
-        public async Task<ActionResult<Response<List<Geral>>>> GetDashboardData()
+        public async Task<ActionResult<Response<DashboardDTO>>> GetDashboardData()
         {
             var data = _dashboardApplication.GetDashboardData();
 
-            if (data == null) 
+            if (data == null)
             {
-                return NotFound(new Response<Geral>
+                return NotFound(new Response<DashboardDTO>
                 {
                     StatusCode = HttpStatusCode.NotFound,
-                    Message = "Falha ao capturar as roles",
-                    Data = new List<Geral>(),
+                    Message = "Falha ao capturar os dados do dashboard",
+                    Data = null,
                     IsSuccess = false
                 });
             }
 
-            return Ok(new Response<Geral>
+            return Ok(new Response<DashboardDTO>
             {
                 StatusCode = HttpStatusCode.OK,
                 Message = "Dados do dashboard encontrados com sucesso.",
-                Data = data,
+                Data = new List<DashboardDTO> { data },
                 IsSuccess = true
             });
-
         }
 
         [HttpPost("CreateData")]

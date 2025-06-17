@@ -9,6 +9,8 @@ import { TableModule } from 'primeng/table';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { DialogModule } from 'primeng/dialog';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { RolesApiService } from '../../api/RolesApi/roles-api.service';
 
 
 @NgModule({
@@ -19,7 +21,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FontAwesomeModule,
     DialogModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
+  ],
+  providers: [
+    RolesApiService
   ]
 })
 export class RolesMgmtModule { }

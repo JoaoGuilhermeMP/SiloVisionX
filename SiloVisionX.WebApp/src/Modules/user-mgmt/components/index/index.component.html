@@ -23,11 +23,11 @@
             </ng-template>
             <ng-template pTemplate="body" let-user>
                 <tr >
-                    <td style="padding: 20px;">{{ user?.name }}</td>
+                    <td style="padding: 20px;">{{ user?.nome }}</td>
                     <td>{{ user?.email }}</td>
                     <td>{{ user?.cpf }}</td>
                     <td>{{ user?.telefone }}</td>
-                    <td>{{ user?.permissions }}</td>
+                    <td>{{ user?.role }}</td>
                     <td class="actions">
                         <button class="edit" (click)="editUser(user)"><fa-icon [icon]="iconEdit"></fa-icon></button>
                         <button class="delete" (click)="deleteUser(user)"><fa-icon [icon]="iconDelete"></fa-icon></button>

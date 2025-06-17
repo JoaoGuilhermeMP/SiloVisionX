@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { faTractor, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { RoleInnerService } from '../../service/role-inner.service';
 import { Subject, takeUntil } from 'rxjs';
+import { RolesApiService } from '../../../../api/RolesApi/roles-api.service';
 
 @Component({
   selector: 'delete-role',
@@ -14,7 +15,7 @@ export class DeleteRoleComponent implements OnInit, OnDestroy{
   /**
    *
    */
-  constructor(private pageService: RoleInnerService) {
+  constructor(private pageService: RoleInnerService, private api: RolesApiService) {
     
     
   }
@@ -33,6 +34,20 @@ export class DeleteRoleComponent implements OnInit, OnDestroy{
   }
   ngOnDestroy(): void {
     this.lifeCycle.next()
+  }
+
+  async delete() {
+    try {
+      await this.api.deleteRole(this.role)
+      this.visible = false
+      this.pageService.$deleteModalState.next({
+        visible: false,
+        data: null
+      })
+      this.pageService.$refreshTableData.next()
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   private registerModalState() {

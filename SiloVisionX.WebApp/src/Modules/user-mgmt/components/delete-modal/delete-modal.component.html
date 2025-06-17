@@ -2,8 +2,8 @@
     <div class="container">
         <h1>Excluir Usuário</h1>
         <div class="main">
-            <p>Tem certeza que deseja excluir este usuário: <span>{{user?.name}}</span>?</p>
-            <button class="btn">Confirmar <fa-icon [icon]="iconTrash"></fa-icon></button>
+            <p>Tem certeza que deseja excluir este usuário: <span>{{user?.nome}}</span>?</p>
+            <button class="btn" (click)="delete()">Confirmar <fa-icon [icon]="iconTrash"></fa-icon></button>
         </div>
     </div>
 </p-dialog>

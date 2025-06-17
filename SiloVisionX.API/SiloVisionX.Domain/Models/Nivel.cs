@@ -15,7 +15,7 @@ namespace SiloVisionX.Domain.Models
 
         public DateTime Data { get; set; }
 
-        public string Type { get; set; }
+        public string Status { get; set; }
 
         public int GeralId { get; set; }
 

@@ -18,7 +18,7 @@
 
         <div class="risco">
             <h1>Risco</h1>
-            <h1>
+            <h1 class="risco-icon">
                 <span [ngClass]="{
                     'risco-baixo': risco !== 'warning' && risco !== 'fatal',
                     'risco-medio': risco === 'warning',
@@ -31,16 +31,14 @@
 
         <div class="last-alert">
             <h1>Último Alerta</h1>
-            <br>
-            <br>
-            <h1>2025/06/15 14:00:00</h1>
+            <br><br>
+            <h1>{{ formatDateOrDefault(lastAlert) }}</h1>
         </div>
 
         <div class="last-red-alert">
             <h1>Último alerta vermelho</h1>
-            <br>
-            <br>
-            <h1>2025/06/15 14:00:00</h1>
+            <br><br>
+            <h1>{{ formatDateOrDefault(lastFatalAlert) }}</h1>
         </div>
 
     </div>

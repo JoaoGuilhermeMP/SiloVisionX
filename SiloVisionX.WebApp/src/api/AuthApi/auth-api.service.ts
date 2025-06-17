@@ -10,8 +10,8 @@ export class AuthApiService {
 
   constructor(private http: HttpClient) { }
 
-  createToken(email: string): Promise<any> {
-    const apiUrl = `${Environment.apiUrl}/Auth/CreateToken?Email=${email}`
+  createToken(email: any): Promise<any> {
+    const apiUrl = `${Environment.apiUrl}/Auth/CreateToken?Email=${email.Email}`
 
     const observableReq = this.http.get(apiUrl)
     .pipe(
@@ -28,16 +28,18 @@ export class AuthApiService {
 
   }
 
-  getToken(email: string, token: string) {
-    const apiUrl = `${Environment.apiUrl}/Auth/GetToken?Email=${email}&token=${token}`
+  getToken(email: any, token: any) {
+    const apiUrl = `${Environment.apiUrl}/Auth/GetToken?Email=${email.Email}&token=${token.Token}`
+
+   
 
     const observableReq = this.http.get(apiUrl)
     .pipe(
       map((response: any) => {
 
-        if(response.StatusCode != 200) throw {error: response}
+        if(response.statusCode != 200) throw {error: response}
 
-        return response.Data ?? []
+        return response.data ?? []
 
       })
     )

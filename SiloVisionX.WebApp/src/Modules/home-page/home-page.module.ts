@@ -7,6 +7,8 @@ import { HeaderComponent } from "../../Core/header/header.component";
 import { AsideComponent } from "../../Core/aside/aside.component";
 import { FooterComponent } from "../../Core/footer/footer.component";
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HttpClientModule } from '@angular/common/http';
+import { DashApiService } from '../../api/DashApi/dash-api.service';
 
 
 @NgModule({
@@ -15,7 +17,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CommonModule,
     HeaderComponent,
     AsideComponent,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
+  ],
+  providers: [
+    DashApiService
   ]
 })
 export class HomePageModule { }

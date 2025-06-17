@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnDestroy, OnInit } from '@angular/core';
 import { NavigationEnd, Router, RouterModule, RouterOutlet } from '@angular/router';
 import { FooterComponent } from "../Core/footer/footer.component";
 import { HeaderComponent } from "../Core/header/header.component";
@@ -13,11 +13,17 @@ import { filter } from 'rxjs';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit{
   title = 'SiloVisionX.WebApp';
   isLogin: boolean = true;
 
   constructor(private router: Router) {}
+  
+  @HostListener('window:beforeunload', ['$event'])
+  clearStorage(event: Event) {
+    // localStorage.removeItem('usuarioAutenticado');
+    // localStorage.clear();
+  }
 
   ngOnInit(): void {
     this.router.events

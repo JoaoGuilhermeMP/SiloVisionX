@@ -7,6 +7,8 @@ import { CalendarModule } from 'primeng/calendar';
 import { ChartComponent } from './components/chart/chart.component';
 import { TableComponent } from './components/table/table.component';
 import { TableModule } from 'primeng/table';
+import { HttpClientModule } from '@angular/common/http';
+import { ReportApiService } from '../../api/ReportApi/report-api.service';
 
 
 @NgModule({
@@ -15,7 +17,11 @@ import { TableModule } from 'primeng/table';
     CommonModule,
     FormsModule,
     CalendarModule,
-    TableModule
+    TableModule,
+    HttpClientModule
+  ],
+  providers: [
+    ReportApiService
   ]
 })
 export class GeralReportsModule { }

@@ -26,12 +26,17 @@
         </div>
     </form>
 
-    <div class="chart">
+    <div class="chart" *ngIf="!errorData">
         <chart *ngIf="hasData"></chart>
     </div>
 
-    <div class="table">
+    <div class="table" *ngIf="!errorData">
         <table *ngIf="hasData"></table>
     </div>
+
+    <div class="errorData" *ngIf="errorData">
+        <h1>Falha ao capturar os dados ou o intervalo de datas é invalido, verifique o console ou selecione um intervalo de datas válidos</h1>
+    </div>
+
 </div>
 

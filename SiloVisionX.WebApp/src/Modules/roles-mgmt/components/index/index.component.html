@@ -13,8 +13,8 @@
             </ng-template>
             <ng-template pTemplate="body" let-role>
                 <tr >
-                    <td style="padding: 20px;">{{ role?.Name }}</td>
-                    <td>{{ role?.Description }}</td>
+                    <td style="padding: 20px;">{{ role?.name }}</td>
+                    <td>{{ role?.description }}</td>
                     <td class="actions">
                         <button class="edit" (click)="editRole(role)"><fa-icon [icon]="iconEdit"></fa-icon></button>
                         <button class="delete" (click)="deleteRole(role)"><fa-icon [icon]="iconDelete"></fa-icon></button>

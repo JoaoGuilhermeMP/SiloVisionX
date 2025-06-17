@@ -10,7 +10,7 @@ namespace SiloVisionX.Domain.Interfaces
     public interface IReportApplication
     {
 
-        public List<Geral> ReportData();
+        public List<Geral> ReportData(DateTime initial, DateTime final);
 
     }
 }

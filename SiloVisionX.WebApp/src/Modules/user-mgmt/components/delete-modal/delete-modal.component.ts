@@ -1,7 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { UserInnerService } from '../../service/user-inner.service';
 import { Subject, takeUntil } from 'rxjs';
-import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faL, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { UserApiService } from '../../../../api/UserApi/user-api.service';
 
 @Component({
   selector: 'delete-modal',
@@ -14,7 +15,7 @@ export class DeleteModalComponent implements OnInit, OnDestroy{
   /**
    *
    */
-  constructor(private pageService: UserInnerService) {
+  constructor(private pageService: UserInnerService, private api: UserApiService) {
     
     
   }
@@ -33,6 +34,21 @@ export class DeleteModalComponent implements OnInit, OnDestroy{
   }
   ngOnDestroy(): void {
     this.lifeCycle.next()
+  }
+
+  delete() {
+
+    try {
+      this.api.deleteUser(this.user?.email)
+
+      this.visible = false
+      this.pageService.$deleteModalState.next({visible: false}) 
+      this.pageService.$refreshTableData.next()
+
+    } catch (error) {
+      console.log(error)
+    }
+
   }
 
 

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { GeralInnerService } from '../../service/geral-inner.service';
+import { ReportApiService } from '../../../../api/ReportApi/report-api.service';
 
 @Component({
   selector: 'app-index',
@@ -8,6 +10,17 @@ import { Component } from '@angular/core';
 })
 export class IndexComponent {
 
+
+  /**
+   *
+   */
+  constructor(private pageService: GeralInnerService, private api: ReportApiService) {
+    
+    
+  }
+
+
+  errorData: boolean = false
 
   date1: any
   date2: any
@@ -21,8 +34,26 @@ export class IndexComponent {
 
   console.log("Searching from " + formattedDate1 + " to " + formattedDate2);
 
-  this.hasData = true
+  this.getData(formattedDate1, formattedDate2)
+
+  
 }
+
+  private async getData(initialDate: any, finalDate: any) {
+    try {
+
+      const result = await this.api.getReportData(initialDate, finalDate)
+
+      if (result.length < 1) {
+        this.errorData = true
+      }
+
+      this.pageService.$apiData.next({data: result})
+      this.hasData = true
+    } catch (error) {
+      this.errorData = true
+    }
+  }
 
 formatDateForCSharp(date: Date): string {
   if (!date) return '';

@@ -15,11 +15,11 @@ namespace SiloVisionX.Domain.Models
 
         public float UmidadeValue { get; set; }
 
-        public float PesoValue { get; set; }
+        public float NivelValue { get; set; }
 
         public DateTime Data { get; set; }
 
-        public string Type { get; set; }
+        public string Status { get; set; }
 
     }
 }

@@ -1,18 +1,27 @@
 <p-table [value]="data" [paginator]="true" [rows]="10" [style]="{'width': '80vw', 'padding': '20px', 'height': '100%'}">
+  
+   <ng-template pTemplate="caption">
+    <div style="display: flex; justify-content: flex-end; padding-bottom: 10px;">
+      <button pButton type="button" label="Exportar Excel" icon="pi pi-file-excel" class="p-button-success export" (click)="exportToCSV()"></button>
+    </div>
+  </ng-template>
+
   <ng-template pTemplate="header">
     <tr class="table-header">
       <th style="padding: 20px;">Dia</th>
       <th>Temperatura (Em °C)</th>
       <th>Umidade (Em %)</th>
       <th>Nível</th>
+      <th>Status</th>
     </tr>
   </ng-template>
   <ng-template pTemplate="body" let-row>
     <tr>
-      <td style="padding: 20px;">{{ row.day }}</td>
-      <td>{{ row.temperature }}</td>
-      <td>{{ row.humidity }}</td>
-      <td>{{ row.level }}</td>
+      <td style="padding: 20px;">{{ row?.data | date: 'dd/MM/yyyy HH:mm'}}</td>
+      <td>{{ row?.temperaturaValue }}</td>
+      <td>{{ row?.umidadeValue }}</td>
+      <td>{{ row?.nivelValue }}</td>
+      <td>{{ row?.status }}</td>
     </tr>
   </ng-template>
 </p-table>

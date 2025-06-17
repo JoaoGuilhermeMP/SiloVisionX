@@ -19,9 +19,9 @@ namespace SiloVisionX.API.Controllers
         }
 
         [HttpGet("GetReportData")]
-        public async Task<ActionResult<Response<List<Geral>>>> GetReportData()
+        public async Task<ActionResult<Response<List<Geral>>>> GetReportData(DateTime initialDate, DateTime finalDate)
         {
-            var data = report.ReportData();
+            var data = report.ReportData(initialDate, finalDate);
 
             if (data == null)
             {

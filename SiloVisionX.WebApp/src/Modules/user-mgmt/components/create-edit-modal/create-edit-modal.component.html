@@ -1,9 +1,9 @@
-<p-dialog [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }" [draggable]="false">
+<p-dialog [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }" [draggable]="false" (onHide)="reset()">
     <div class="container">
         <h1 *ngIf="!isEdit">Criar Usuário</h1>
         <h1 *ngIf="isEdit">Editar Usuário</h1>
 
-        <form class="form" [formGroup]="form">
+        <form class="form" [formGroup]="form" (ngSubmit)="save(form)">
             
             <div class="name form-group">
                 <Label>Nome</Label>
@@ -12,7 +12,7 @@
         
             <div class="email form-group">
                 <label>Email</label>
-                <input type="text" pInputText formControlName="Email" />
+                <input type="text" pInputText formControlName="Email" [readonly]="isEdit"/>
             </div>
 
             <div class="cpf form-group">
@@ -30,7 +30,8 @@
                 <p-dropdown 
                     formControlName="Role" 
                     [options]="roles"
-                    optionLabel="name"
+                    optionLabel="label"
+                    optionValue="value"
                     placeholder="Escolha a permissão" />
             </div>
 

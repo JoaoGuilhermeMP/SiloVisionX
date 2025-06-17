@@ -34,15 +34,15 @@ namespace SiloVisionX.Infra.Migrations
                     b.Property<DateTime>("Data")
                         .HasColumnType("datetime2");
 
-                    b.Property<float>("PesoValue")
+                    b.Property<float>("NivelValue")
                         .HasColumnType("real");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("TemperaturaValue")
                         .HasColumnType("real");
-
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("UmidadeValue")
                         .HasColumnType("real");
@@ -70,7 +70,7 @@ namespace SiloVisionX.Infra.Migrations
                     b.Property<float>("NivelValue")
                         .HasColumnType("real");
 
-                    b.Property<string>("Type")
+                    b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -123,12 +123,12 @@ namespace SiloVisionX.Infra.Migrations
                     b.Property<int>("GeralId")
                         .HasColumnType("int");
 
-                    b.Property<float>("TemperaturaValue")
-                        .HasColumnType("real");
-
-                    b.Property<string>("Type")
+                    b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<float>("TemperaturaValue")
+                        .HasColumnType("real");
 
                     b.HasKey("Id");
 
@@ -178,7 +178,7 @@ namespace SiloVisionX.Infra.Migrations
                     b.Property<int>("GeralId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Type")
+                    b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

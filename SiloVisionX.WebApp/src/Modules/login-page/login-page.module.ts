@@ -5,6 +5,9 @@ import { LoginPageRoutingModule } from './login-page-routing.module';
 import { InputTextModule } from 'primeng/inputtext';
 import { IndexComponent } from './Components/index/index.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AuthApiService } from '../../api/AuthApi/auth-api.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -13,7 +16,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     InputTextModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    RouterModule
+  ],
+  providers: [
+    AuthApiService
   ]
 })
 export class LoginPageModule { }

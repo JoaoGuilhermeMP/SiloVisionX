@@ -92,7 +92,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "SiloVisionX.Domain.Models.Response\u00601[[System.Collections.Generic.List\u00601[[SiloVisionX.Domain.Models.Geral, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.DTO.DashboardDTO, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -109,7 +109,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "initialDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "finalDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "SiloVisionX.Domain.Models.Response\u00601[[System.Collections.Generic.List\u00601[[SiloVisionX.Domain.Models.Geral, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",

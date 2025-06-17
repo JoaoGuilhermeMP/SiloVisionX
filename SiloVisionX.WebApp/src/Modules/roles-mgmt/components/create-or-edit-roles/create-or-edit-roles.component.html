@@ -1,13 +1,13 @@
-<p-dialog [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }" [draggable]="false">
+<p-dialog [modal]="true" [(visible)]="visible" [style]="{ width: '25rem' }" [draggable]="false" (onHide)="reset()">
     <div class="container">
         <h1 *ngIf="!isEdit">Criar Permissão</h1>
         <h1 *ngIf="isEdit">Editar Permissão</h1>
 
-        <form class="form" [formGroup]="form">
+        <form class="form" [formGroup]="form" (ngSubmit)="save(form)">
             
             <div class="name form-group">
                 <Label>Nome</Label>
-                <input type="text" pInputText formControlName="Name"/>
+                <input type="text" pInputText formControlName="Name" [readOnly]="isEdit"/>
             </div>
         
             <div class="email form-group">

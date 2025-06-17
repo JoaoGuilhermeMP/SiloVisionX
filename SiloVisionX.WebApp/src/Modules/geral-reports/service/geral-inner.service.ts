@@ -10,10 +10,8 @@ export class GeralInnerService {
 
 
   $apiData = new BehaviorSubject<{
-    visible: boolean,
-    data?: any,
+    data: any,
   }>({
-    visible: false,
     data: null
   })
 

@@ -43,7 +43,7 @@ namespace SiloVisionX.Application.Applications
 
            var data =  await _tokenRepository.CreateToken(token, userId);
 
-            //await EnviarEmail(email, token);
+            await EnviarEmail(email, token);
 
             var tokenDto = new TokenDTO
             {
@@ -114,7 +114,7 @@ namespace SiloVisionX.Application.Applications
                 {
                     From = new MailAddress("silovisionx@gmail.com", "SiloVisionX"),
                     Subject = "Seu token de autenticação",
-                    Body = $"Olá! Aqui está seu token para Login: {token}! Não compartilhe com terceiros",
+                    Body = $"Olá! Aqui está seu token para Login: {token} ! Não compartilhe com terceiros",
                     IsBodyHtml = false
                 };
 

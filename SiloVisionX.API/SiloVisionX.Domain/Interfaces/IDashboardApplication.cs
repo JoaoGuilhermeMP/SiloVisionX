@@ -1,4 +1,5 @@
-﻿using SiloVisionX.Domain.Models;
+﻿using SiloVisionX.Domain.DTO;
+using SiloVisionX.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace SiloVisionX.Domain.Interfaces
     public interface IDashboardApplication
     {
 
-        public List<Geral> GetDashboardData();
+        public DashboardDTO GetDashboardData();
 
         public Task<Geral> CreateDataAsync(Geral data);
 

@@ -4,11 +4,12 @@ import json
 import threading
 import requests
 import time
+from datetime import datetime
 
 app = Flask(__name__)
 
 BROKER = 'broker.mqttdashboard.com'
-TOPIC_REQUEST = 'sensor/silo/request'
+TOPIC_REQUEST = 'sensor/silo/cmd'
 TOPIC_RESPONSE = 'sensor/silo'
 API_DESTINO = 'http://localhost:5082/api/Dashboard/CreateData'  
 mqtt_timeout = 10
@@ -24,10 +25,18 @@ def on_connect(client, userdata, flags, rc):
 def on_message(client, userdata, msg):
     global dados_recebidos
     if msg.topic == TOPIC_RESPONSE:
-        dados_recebidos = json.loads(msg.payload.decode())
-        print("Resposta recebida da ESP32:", dados_recebidos)
+        dados_recebidos_raw = json.loads(msg.payload.decode())
+        print("Resposta recebida da ESP32:", dados_recebidos_raw)
 
         
+        dados_recebidos = {
+            "temperaturaValue": float(dados_recebidos_raw.get("temperatura", 0)),
+            "umidadeValue": float(dados_recebidos_raw.get("umidade", 0)),
+            "nivelValue": float(dados_recebidos_raw.get("nivel_silo", 0)),
+            "data": datetime.now().isoformat(),
+            "status": str(dados_recebidos_raw.get("status", "desconhecido"))  
+        }
+
         try:
             response = requests.post(API_DESTINO, json=dados_recebidos)
             print(f"Enviado para API C#: {response.status_code} - {response.text}")
@@ -46,7 +55,7 @@ mqtt_thread.start()
 
 def loop_solicitacao_automatica():
     while True:
-        mqtt_client.publish(TOPIC_REQUEST, 'obter_dados')
+        mqtt_client.publish(TOPIC_REQUEST, json.dumps({"cmd": "get-data"}))
         print("Solicitação automática enviada via MQTT.")
         time.sleep(10)
 

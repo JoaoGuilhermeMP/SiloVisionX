@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -23,6 +23,8 @@ export class RoleInnerService {
     visible: false,
     isEdit: false
   })
+
+  $refreshTableData = new Subject<void>()
 
 
 }

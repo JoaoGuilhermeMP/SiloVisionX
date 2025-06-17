@@ -20,17 +20,17 @@ namespace SiloVisionX.Application.Applications
             ILogger = iLogger;
         }
 
-        List<Geral> IReportApplication.ReportData()
+        List<Geral> IReportApplication.ReportData(DateTime initialDate, DateTime finalDate)
         {
-            var data = geralRepository.GetAllData();
+            var data = geralRepository.GetAllData(initialDate, finalDate);
 
-            if (data == null || !data.Any())
+            if (data == null)
             {
                 ILogger.Fatal("Failed to retrieve report data.");
                 return new List<Geral>();
             }
 
-            ILogger.Info($"Retrieved {data.Count} records for report data.");
+            ILogger.Info($"Retrieved records for report data.");
             return data;
 
         }
