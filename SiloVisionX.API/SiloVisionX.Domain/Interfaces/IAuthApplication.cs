@@ -1,4 +1,5 @@
-﻿using SiloVisionX.Domain.Models;
+﻿using SiloVisionX.Domain.DTO;
+using SiloVisionX.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,9 @@ namespace SiloVisionX.Domain.Interfaces
     public interface IAuthApplication
     {
 
-        public Task<Token> CreateToken(string email);
+        public Task<TokenDTO> CreateToken(string email);
 
-        public Task<Token> GetToken(string email);
+        public Task<Token> GetToken(string token, string email);
 
     }
 }

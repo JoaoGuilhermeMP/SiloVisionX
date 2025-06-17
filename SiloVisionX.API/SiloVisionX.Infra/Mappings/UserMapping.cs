@@ -24,9 +24,9 @@ namespace SiloVisionX.Infra.Mappings
                 .ValueGeneratedOnAdd();
 
             builder.HasOne(u => u.Roles)
-                   .WithMany(r => r.Users)
+                   .WithMany()
                    .HasForeignKey(u => u.Role)
-                   .OnDelete(DeleteBehavior.Restrict); ;
+                   .OnDelete(DeleteBehavior.Restrict); 
 
         }
 

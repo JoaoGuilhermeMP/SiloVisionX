@@ -12,8 +12,15 @@
         </form>
     </div>
 
-    <div *ngIf="isTokenPage">
+    <div class="intro" *ngIf="isTokenPage">
         Por favor, insira o token de acesso que foi enviado para o seu email.
+        <form class="form">
+            <label>Token:</label>
+            <div class="btns">
+                <input type="text" pInputText placeholder="Digite o Token"/>
+                <button class="btn">Confirmar</button>
+            </div>
+        </form>
     </div>
 
     <div class="image">

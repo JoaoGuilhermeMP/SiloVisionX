@@ -20,6 +20,14 @@ namespace SiloVisionX.Infra.Repositories
             _context = context;            
         }
 
+        public Roles GetRolesByName(string name)
+        {
+            var result = _context.Roles.Where(x => x.Name == name).FirstOrDefault();
+
+            return result;
+
+        }
+
         Roles IRoleRepository.CreateRole(Roles role)
         {
             _context.Roles.Add(role);

@@ -12,7 +12,7 @@ namespace SiloVisionX.Domain.Interfaces
 
         public Task<Token> CreateToken(string token, int userId);
 
-        public Task<Token> GetToken(int userId);
+        public Task<Token> GetToken(int userId, string token);
 
     }
 }

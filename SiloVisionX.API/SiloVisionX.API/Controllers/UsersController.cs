@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SiloVisionX.Domain.DTO;
 using SiloVisionX.Domain.Interfaces;
 using SiloVisionX.Domain.Models;
 
@@ -70,7 +71,7 @@ namespace SiloVisionX.API.Controllers
         }
 
         [HttpPost("CreateUser")]
-        public async Task<ActionResult<Response<User>>> CreateUser(User user)
+        public async Task<ActionResult<Response<User>>> CreateUser(UserDTO user)
         {
             var data = _userApplication.CreateUser(user);
 
@@ -96,7 +97,7 @@ namespace SiloVisionX.API.Controllers
         }
 
         [HttpPut("EditUser")]
-        public async Task<ActionResult<Response<User>>> EditUser(User user)
+        public async Task<ActionResult<Response<User>>> EditUser(UserDTO user)
         {
             var data = await _userApplication.EditUser(user);
 
@@ -121,7 +122,7 @@ namespace SiloVisionX.API.Controllers
 
         }
 
-        [HttpPut("DeleteUser")]
+        [HttpDelete("DeleteUser")]
         public async Task<ActionResult<Response<User>>> DeleteUser(string email)
         {
             var data = _userApplication.DeleteUser(email);
@@ -131,7 +132,7 @@ namespace SiloVisionX.API.Controllers
                 return NotFound(new Response<User>
                 {
                     StatusCode = HttpStatusCode.NotFound,
-                    Message = "falha ao editar usuário",
+                    Message = "falha ao deletar usuário",
                     Data = new List<User>(),
                     IsSuccess = false
                 });
@@ -140,7 +141,7 @@ namespace SiloVisionX.API.Controllers
             return Ok(new Response<User>
             {
                 StatusCode = HttpStatusCode.OK,
-                Message = "Usuário editado com sucesso.",
+                Message = "Usuário deletado com sucesso.",
                 Data = new List<User>(),
                 IsSuccess = true
             });

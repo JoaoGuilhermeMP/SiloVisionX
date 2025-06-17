@@ -12,6 +12,8 @@ namespace SiloVisionX.Domain.Interfaces
 
         public List<Roles> GetRoles();
 
+        public Roles GetRolesByName(string name);
+
 
         public Task<Roles> EditRole(Roles role);
 

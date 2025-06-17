@@ -16,7 +16,7 @@ namespace SiloVisionX.API.DI
             builder.RegisterType<GeralRepository>().As<IGeralRepository>().InstancePerLifetimeScope();
             builder.RegisterType<HumRepository>().As<IHumRepository>().InstancePerLifetimeScope();
             builder.RegisterType<LoggerRepository>().As<ILoggerRepository>().InstancePerLifetimeScope();
-            builder.RegisterType<PesoRepository>().As<IPesoRepository>().InstancePerLifetimeScope();
+            builder.RegisterType<NivelRepository>().As<INivelRepository>().InstancePerLifetimeScope();
             builder.RegisterType<ReportApplication>().As<IReportApplication>().InstancePerLifetimeScope();
             builder.RegisterType<RoleRepository>().As<IRoleRepository>().InstancePerLifetimeScope();
             builder.RegisterType<RolesApplication>().As<IRolesApplication>().InstancePerLifetimeScope();

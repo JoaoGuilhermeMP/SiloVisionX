@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.Token, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.DTO.TokenDTO, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -34,7 +34,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Email",
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -42,6 +47,32 @@
     "ReturnTypes": [
       {
         "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.Token, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SiloVisionX.API.Controllers.DashboardController",
+    "Method": "CreateData",
+    "RelativePath": "api/Dashboard/CreateData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "SiloVisionX.Domain.Models.Geral",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SiloVisionX.Domain.Models.Response\u00601[[SiloVisionX.Domain.Models.Geral, SiloVisionX.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -199,7 +230,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "SiloVisionX.Domain.Models.User",
+        "Type": "SiloVisionX.Domain.DTO.UserDTO",
         "IsRequired": true
       }
     ],
@@ -219,7 +250,7 @@
     "ContainingType": "SiloVisionX.API.Controllers.UsersController",
     "Method": "DeleteUser",
     "RelativePath": "api/Users/DeleteUser",
-    "HttpMethod": "PUT",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -251,7 +282,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "SiloVisionX.Domain.Models.User",
+        "Type": "SiloVisionX.Domain.DTO.UserDTO",
         "IsRequired": true
       }
     ],

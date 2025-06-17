@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace SiloVisionX.Domain.Models
@@ -12,6 +13,6 @@ namespace SiloVisionX.Domain.Models
 
         public string Description { get; set; }
 
-        public ICollection<User> Users { get; set; }
+        
     }
 }

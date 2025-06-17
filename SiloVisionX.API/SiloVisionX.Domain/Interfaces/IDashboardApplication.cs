@@ -13,7 +13,7 @@ namespace SiloVisionX.Domain.Interfaces
 
         public List<Geral> GetDashboardData();
 
-        public Task CreateDataAsync(Geral data);
+        public Task<Geral> CreateDataAsync(Geral data);
 
     }
 }

@@ -52,7 +52,7 @@ namespace SiloVisionX.Infra.Migrations
                     b.ToTable("Geral", "Silo");
                 });
 
-            modelBuilder.Entity("SiloVisionX.Domain.Models.Peso", b =>
+            modelBuilder.Entity("SiloVisionX.Domain.Models.Nivel", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -67,7 +67,7 @@ namespace SiloVisionX.Infra.Migrations
                     b.Property<int>("GeralId")
                         .HasColumnType("int");
 
-                    b.Property<float>("PesoValue")
+                    b.Property<float>("NivelValue")
                         .HasColumnType("real");
 
                     b.Property<string>("Type")
@@ -78,7 +78,7 @@ namespace SiloVisionX.Infra.Migrations
 
                     b.HasIndex("GeralId");
 
-                    b.ToTable("Peso", "Silo");
+                    b.ToTable("Nivel", "Silo");
                 });
 
             modelBuilder.Entity("SiloVisionX.Domain.Models.Roles", b =>
@@ -94,6 +94,18 @@ namespace SiloVisionX.Infra.Migrations
                     b.HasKey("Name");
 
                     b.ToTable("Roles", "Auth");
+
+                    b.HasData(
+                        new
+                        {
+                            Name = "ADMIN",
+                            Description = "Administrador"
+                        },
+                        new
+                        {
+                            Name = "USER",
+                            Description = "Usuário"
+                        });
                 });
 
             modelBuilder.Entity("SiloVisionX.Domain.Models.Temperatura", b =>
@@ -133,6 +145,9 @@ namespace SiloVisionX.Infra.Migrations
                         .HasColumnName("Id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("TokenValue")
                         .IsRequired()
@@ -213,7 +228,7 @@ namespace SiloVisionX.Infra.Migrations
                     b.ToTable("Usuários", "Auth");
                 });
 
-            modelBuilder.Entity("SiloVisionX.Domain.Models.Peso", b =>
+            modelBuilder.Entity("SiloVisionX.Domain.Models.Nivel", b =>
                 {
                     b.HasOne("SiloVisionX.Domain.Models.Geral", "Geral")
                         .WithMany()
@@ -237,13 +252,13 @@ namespace SiloVisionX.Infra.Migrations
 
             modelBuilder.Entity("SiloVisionX.Domain.Models.Token", b =>
                 {
-                    b.HasOne("SiloVisionX.Domain.Models.User", "UserEmail")
+                    b.HasOne("SiloVisionX.Domain.Models.User", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("UserEmail");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("SiloVisionX.Domain.Models.Umidade", b =>
@@ -260,17 +275,12 @@ namespace SiloVisionX.Infra.Migrations
             modelBuilder.Entity("SiloVisionX.Domain.Models.User", b =>
                 {
                     b.HasOne("SiloVisionX.Domain.Models.Roles", "Roles")
-                        .WithMany("Users")
+                        .WithMany()
                         .HasForeignKey("Role")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Roles");
-                });
-
-            modelBuilder.Entity("SiloVisionX.Domain.Models.Roles", b =>
-                {
-                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }

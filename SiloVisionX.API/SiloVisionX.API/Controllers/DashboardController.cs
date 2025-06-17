@@ -65,7 +65,7 @@ namespace SiloVisionX.API.Controllers
                 {
                     StatusCode = HttpStatusCode.OK,
                     Message = "Dados criados com sucesso.",
-                    Data = data,
+                    Data = new List<Geral> { data },
                     IsSuccess = true
                 });
             }

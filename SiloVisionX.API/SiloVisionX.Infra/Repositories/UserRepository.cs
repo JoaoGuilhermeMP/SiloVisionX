@@ -52,7 +52,7 @@ namespace SiloVisionX.Infra.Repositories
             userDatabase.Telefone = user.Telefone;
             userDatabase.Role = user.Role;
 
-            _context.Users.Update(user);
+            _context.Users.Update(userDatabase);
             await _context.SaveChangesAsync();
 
             return user;

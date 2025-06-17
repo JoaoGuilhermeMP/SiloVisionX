@@ -25,7 +25,8 @@ namespace SiloVisionX.Infra.Repositories
             var data = new Token
             {
                 TokenValue = token,
-                UserId = userId
+                UserId = userId,
+                Created = DateTime.Now,
             };
 
             await _context.Tokens.AddAsync(data);
@@ -34,9 +35,11 @@ namespace SiloVisionX.Infra.Repositories
             return data;
         }
 
-        async Task<Token> ITokenRepository.GetToken(int userId)
+        async Task<Token> ITokenRepository.GetToken(int userId, string token)
         {
-            var data =  await _context.Tokens.FirstOrDefaultAsync(t => t.UserId == userId);
+            var data =  await _context.Tokens
+                .Where(x => x.UserId == userId)
+                .FirstOrDefaultAsync(t => t.TokenValue == token);
 
             return data;
         }

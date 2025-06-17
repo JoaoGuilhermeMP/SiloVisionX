@@ -12,9 +12,11 @@ namespace SiloVisionX.Domain.Models
 
         public string TokenValue { get; set; }
 
+        public DateTime Created { get; set; }
+
         public int UserId { get; set; }
 
-        public User UserEmail { get; set; }
+        public User User { get; set; }
 
     }
 }

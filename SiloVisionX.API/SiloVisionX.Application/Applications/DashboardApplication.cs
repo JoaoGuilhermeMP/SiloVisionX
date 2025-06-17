@@ -11,22 +11,28 @@ namespace SiloVisionX.Application.Applications
     {
         private readonly IGeralRepository _rep;
         private readonly ILoggerRepository ILogger;
-        private readonly HttpClient _httpClient;
+        
 
         public DashboardApplication(IGeralRepository rep, ILoggerRepository logger)
         {
             _rep = rep;
             ILogger = logger;
-            _httpClient = new HttpClient();
         }
 
-        public async Task CreateDataAsync(Geral data)
+        public async Task<Geral> CreateDataAsync(Geral data)
         {
             try
             {
-                _rep.CreateData(data);
-                // Caso _rep.CreateData seja síncrono, pode fazer Task.CompletedTask para manter assinatura async
-                await Task.CompletedTask;
+                var result = _rep.CreateData(data);
+
+                if (result == null) 
+                {
+                    ILogger.Fatal("Erro ao criar os dados");
+                    return null;
+                }
+
+                return result;
+                
             }
             catch (Exception ex)
             {
@@ -39,24 +45,6 @@ namespace SiloVisionX.Application.Applications
         {
             try
             {
-
-                var response = _httpClient.GetAsync("http://localhost:5000/solicitar-dados").Result;
-
-
-                if (!response.IsSuccessStatusCode)
-                {
-                    ILogger.Warning($"API Python retornou erro: {response.StatusCode}");
-                }
-                else
-                {
-                    ILogger.Info("Requisição à API Python feita com sucesso.");
-                }
-
-                
-                Thread.Sleep(2000);
-
-
-                ILogger.Info("Iniciando a coleta de dados do dashboard...");
 
                 var data = _rep.GetAllData();
 

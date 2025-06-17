@@ -1,4 +1,5 @@
-﻿using SiloVisionX.Domain.Models;
+﻿using SiloVisionX.Domain.DTO;
+using SiloVisionX.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +15,11 @@ namespace SiloVisionX.Domain.Interfaces
         
         public User GetUserByEmail(string email);
 
-        public Task<User> EditUser(User user);
+        public Task<User> EditUser(UserDTO user);
 
         public bool DeleteUser(string email);
 
-        public User CreateUser(User user);
+        public User CreateUser(UserDTO user);
 
     }
 }

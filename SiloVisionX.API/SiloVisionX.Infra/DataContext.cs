@@ -25,7 +25,7 @@ namespace SiloVisionX.Infra
 
         public DbSet<Umidade> Umidade { get; set; }
 
-        public DbSet<Peso> Peso{ get; set; }
+        public DbSet<Nivel> Peso{ get; set; }
 
 
 
@@ -38,7 +38,12 @@ namespace SiloVisionX.Infra
             modelBuilder.ApplyConfiguration(new GeralMapping());
             modelBuilder.ApplyConfiguration(new TemperaturaMapping());
             modelBuilder.ApplyConfiguration(new UmidadeMapping());
-            modelBuilder.ApplyConfiguration(new PesoMapping());
+            modelBuilder.ApplyConfiguration(new NivelMapping());
+
+            modelBuilder.Entity<Roles>().HasData(
+                new Roles { Name = "ADMIN", Description = "Administrador" },
+                new Roles { Name = "USER", Description = "Usuário" }
+            );
 
             base.OnModelCreating(modelBuilder);
         }

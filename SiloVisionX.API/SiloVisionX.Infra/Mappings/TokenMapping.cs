@@ -23,7 +23,7 @@ namespace SiloVisionX.Infra.Mappings
                 .IsRequired()
                 .ValueGeneratedOnAdd();
 
-            Builder.HasOne(t => t.UserEmail)
+            Builder.HasOne(t => t.User)
                 .WithMany()
                 .HasForeignKey(t => t.UserId)
                 .OnDelete(DeleteBehavior.Restrict);

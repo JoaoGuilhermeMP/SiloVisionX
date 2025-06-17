@@ -1,4 +1,5 @@
-﻿using SiloVisionX.Domain.Interfaces;
+﻿using SiloVisionX.Domain.DTO;
+using SiloVisionX.Domain.Interfaces;
 using SiloVisionX.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -12,17 +13,31 @@ namespace SiloVisionX.Application.Applications
     {
 
         private readonly IUserRepository _repository;
+        private readonly IRoleRepository _roleRepository;
         private readonly ILoggerRepository ILogger;
 
-        public UserApplication(IUserRepository repository, ILoggerRepository logger)
+        public UserApplication(IUserRepository repository, ILoggerRepository logger, IRoleRepository roleRepository)
         {
             _repository = repository;
             ILogger = logger;
+            _roleRepository = roleRepository;
         }
 
-        User IUserApplication.CreateUser(User user)
+        User IUserApplication.CreateUser(UserDTO user)
         {
-            var result = _repository.CreateUser(user);
+            var role = _roleRepository.GetRolesByName(user.Role);
+
+            var userData = new User
+            {
+                Nome = user.Nome,
+                Cpf = user.Cpf,
+                Email = user.Email,
+                Telefone = user.Telefone,
+                Role = user.Role,
+                Roles = role
+            };
+
+            var result = _repository.CreateUser(userData);
 
             if (result == null)
             {
@@ -49,9 +64,22 @@ namespace SiloVisionX.Application.Applications
             return data;
         }
 
-        Task<User> IUserApplication.EditUser(User user)
+        Task<User> IUserApplication.EditUser(UserDTO user)
         {
-            var data = _repository.EditUser(user);
+
+            var role = _roleRepository.GetRolesByName(user.Role);
+
+            var userData = new User
+            {
+                Nome = user.Nome,
+                Cpf = user.Cpf,
+                Email = user.Email,
+                Telefone = user.Telefone,
+                Role = user.Role,
+                Roles = role
+            };
+
+            var data = _repository.EditUser(userData);
 
             if (data == null)
             {
