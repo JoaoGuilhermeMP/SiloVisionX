@@ -12,8 +12,8 @@ using SiloVisionX.Infra;
 namespace SiloVisionX.Infra.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250615033312_MudancasNosNomes")]
-    partial class MudancasNosNomes
+    [Migration("20250616195546_CriandoBancoNoNotebook")]
+    partial class CriandoBancoNoNotebook
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

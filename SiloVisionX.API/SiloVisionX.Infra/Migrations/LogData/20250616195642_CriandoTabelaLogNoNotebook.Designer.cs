@@ -12,8 +12,8 @@ using SiloVisionX.Infra;
 namespace SiloVisionX.Infra.Migrations.LogData
 {
     [DbContext(typeof(LogDataContext))]
-    [Migration("20250615034543_TabelaDeLogs")]
-    partial class TabelaDeLogs
+    [Migration("20250616195642_CriandoTabelaLogNoNotebook")]
+    partial class CriandoTabelaLogNoNotebook
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

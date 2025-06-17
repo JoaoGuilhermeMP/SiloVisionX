@@ -5,7 +5,7 @@ namespace SiloVisionX.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class testecs : ControllerBase
+    public class RolesController : ControllerBase
     {
     }
 }

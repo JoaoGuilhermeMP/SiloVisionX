@@ -6,13 +6,20 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SiloVisionX.Infra.Migrations
 {
     /// <inheritdoc />
-    public partial class PrimeiraMigration : Migration
+    public partial class CriandoBancoNoNotebook : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.EnsureSchema(
+                name: "Silo");
+
+            migrationBuilder.EnsureSchema(
+                name: "Auth");
+
             migrationBuilder.CreateTable(
                 name: "Geral",
+                schema: "Silo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -30,6 +37,7 @@ namespace SiloVisionX.Infra.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Roles",
+                schema: "Auth",
                 columns: table => new
                 {
                     Name = table.Column<string>(type: "nvarchar(450)", nullable: false),
@@ -42,6 +50,7 @@ namespace SiloVisionX.Infra.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Peso",
+                schema: "Silo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -57,6 +66,7 @@ namespace SiloVisionX.Infra.Migrations
                     table.ForeignKey(
                         name: "FK_Peso_Geral_GeralId",
                         column: x => x.GeralId,
+                        principalSchema: "Silo",
                         principalTable: "Geral",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -64,6 +74,7 @@ namespace SiloVisionX.Infra.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Temperatura",
+                schema: "Silo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -79,6 +90,7 @@ namespace SiloVisionX.Infra.Migrations
                     table.ForeignKey(
                         name: "FK_Temperatura_Geral_GeralId",
                         column: x => x.GeralId,
+                        principalSchema: "Silo",
                         principalTable: "Geral",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -86,6 +98,7 @@ namespace SiloVisionX.Infra.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Umidade",
+                schema: "Silo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -101,6 +114,7 @@ namespace SiloVisionX.Infra.Migrations
                     table.ForeignKey(
                         name: "FK_Umidade_Geral_GeralId",
                         column: x => x.GeralId,
+                        principalSchema: "Silo",
                         principalTable: "Geral",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -108,6 +122,7 @@ namespace SiloVisionX.Infra.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Usuários",
+                schema: "Auth",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -124,6 +139,7 @@ namespace SiloVisionX.Infra.Migrations
                     table.ForeignKey(
                         name: "FK_Usuários_Roles_Role",
                         column: x => x.Role,
+                        principalSchema: "Auth",
                         principalTable: "Roles",
                         principalColumn: "Name",
                         onDelete: ReferentialAction.Restrict);
@@ -131,6 +147,7 @@ namespace SiloVisionX.Infra.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Token",
+                schema: "Auth",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -144,6 +161,7 @@ namespace SiloVisionX.Infra.Migrations
                     table.ForeignKey(
                         name: "FK_Token_Usuários_UserId",
                         column: x => x.UserId,
+                        principalSchema: "Auth",
                         principalTable: "Usuários",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -151,26 +169,31 @@ namespace SiloVisionX.Infra.Migrations
 
             migrationBuilder.CreateIndex(
                 name: "IX_Peso_GeralId",
+                schema: "Silo",
                 table: "Peso",
                 column: "GeralId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Temperatura_GeralId",
+                schema: "Silo",
                 table: "Temperatura",
                 column: "GeralId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Token_UserId",
+                schema: "Auth",
                 table: "Token",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Umidade_GeralId",
+                schema: "Silo",
                 table: "Umidade",
                 column: "GeralId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Usuários_Role",
+                schema: "Auth",
                 table: "Usuários",
                 column: "Role");
         }
@@ -179,25 +202,32 @@ namespace SiloVisionX.Infra.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Peso");
+                name: "Peso",
+                schema: "Silo");
 
             migrationBuilder.DropTable(
-                name: "Temperatura");
+                name: "Temperatura",
+                schema: "Silo");
 
             migrationBuilder.DropTable(
-                name: "Token");
+                name: "Token",
+                schema: "Auth");
 
             migrationBuilder.DropTable(
-                name: "Umidade");
+                name: "Umidade",
+                schema: "Silo");
 
             migrationBuilder.DropTable(
-                name: "Usuários");
+                name: "Usuários",
+                schema: "Auth");
 
             migrationBuilder.DropTable(
-                name: "Geral");
+                name: "Geral",
+                schema: "Silo");
 
             migrationBuilder.DropTable(
-                name: "Roles");
+                name: "Roles",
+                schema: "Auth");
         }
     }
 }

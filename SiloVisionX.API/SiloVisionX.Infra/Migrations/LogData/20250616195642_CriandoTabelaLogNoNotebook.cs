@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SiloVisionX.Infra.Migrations.LogData
 {
     /// <inheritdoc />
-    public partial class TabelaDeLogs : Migration
+    public partial class CriandoTabelaLogNoNotebook : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
