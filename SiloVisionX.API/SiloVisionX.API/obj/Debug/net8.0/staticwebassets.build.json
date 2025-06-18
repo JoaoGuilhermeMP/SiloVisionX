@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "jj/Cz343hddA2yrN+4X+b35PjzQPHu5QNjZJ8tLjqTo=",
+  "Hash": "H/qE73XLYTdpIwSyoa8Lr+clgsD0LFqOU7FWINiIbes=",
   "Source": "SiloVisionX.API",
   "BasePath": "_content/SiloVisionX.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

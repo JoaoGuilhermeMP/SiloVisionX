@@ -6,8 +6,8 @@ from umqtt.simple import MQTTClient
 import json
 
 
-SSID = 'LUCAS'
-PASSWORD = '01031995'
+SSID = 'Visitantes'
+PASSWORD = ''
 
 
 MQTT_BROKER = 'broker.mqttdashboard.com'

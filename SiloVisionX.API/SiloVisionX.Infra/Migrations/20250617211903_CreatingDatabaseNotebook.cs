@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SiloVisionX.Infra.Migrations
 {
     /// <inheritdoc />
-    public partial class UpdatingDatabase : Migration
+    public partial class CreatingDatabaseNotebook : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

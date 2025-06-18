@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SiloVisionX.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a37d441ef4effbd5e0b674d41a9209d1e8a3ccc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+285fe759d38d559b2b8a81945e929a583f668f55")]
 [assembly: System.Reflection.AssemblyProductAttribute("SiloVisionX.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SiloVisionX.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -36,13 +36,13 @@ export class DeleteModalComponent implements OnInit, OnDestroy{
     this.lifeCycle.next()
   }
 
-  delete() {
+  async delete() {
 
     try {
-      this.api.deleteUser(this.user?.email)
+      await this.api.deleteUser(this.user?.email)
 
       this.visible = false
-      this.pageService.$deleteModalState.next({visible: false}) 
+      this.pageService.$deleteModalState.next({visible: false, data: null}) 
       this.pageService.$refreshTableData.next()
 
     } catch (error) {
