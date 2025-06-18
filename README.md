@@ -83,9 +83,6 @@ ng serve
 
 ---
 
-## 📸 Screenshots
-
-> _(Include images or GIFs of the UI and system in action if possible)_
 
 ---
 
